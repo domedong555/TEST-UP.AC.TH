@@ -16,15 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser('www.up.ac.th')
 
 WebUI.maximizeWindow()
 
+'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เกี่ยวกับเรา'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/สารจากท่านอธิการบดี'))
+
 WebUI.delay(1)
 
 WebUI.closeBrowser()

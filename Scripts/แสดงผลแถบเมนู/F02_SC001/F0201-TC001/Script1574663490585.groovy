@@ -16,17 +16,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('www.up.ac.th')
+'แสดงหน้า หน้าจอหลัก'
+WebUI.openBrowser(GlobalVariable.G_url)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
+'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
+
+// check infomation menu
+WebUI.verifyTextPresent(GlobalVariable.G_history, false)
+
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/ประวัติความเป็นมา'))
+'แสดงหน้า ประวัติความเป็นมา'
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC001/ประวัติความเป็นมา'))
 
 WebUI.delay(1)
 
+
+'แสดงการจัดการศึกษา ตารางจำนวนคณะ'
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/การจัดการศึกษา'))
+
+WebUI.delay(1)
+
+'แสดงการบริหารงาน รูปแบบตาราง'
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/การบริหารงาน'))
+
+WebUI.delay(1)
+
+'แสดงรูปภาพมหาวิทยาลัย'
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/รูปมหาวิทยาลัยพะเยา'))
+
+WebUI.delay(1)
+
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 
