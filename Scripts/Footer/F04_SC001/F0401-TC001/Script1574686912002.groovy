@@ -15,3 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.click(findTestObject('Object Repository/Footer/TC001/aside'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/TC001/QA Information System'),20)
+WebUI.click(findTestObject('Object Repository/Footer/TC001/QA Information System'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

@@ -19,4 +19,9 @@
       <initValue>'สัญลักษณ์ของมหาวิทยาลัย'</initValue>
       <name>G_symbol</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ลิงค์เกี่ยวข้อง'</initValue>
+      <name>G_widgettitle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
