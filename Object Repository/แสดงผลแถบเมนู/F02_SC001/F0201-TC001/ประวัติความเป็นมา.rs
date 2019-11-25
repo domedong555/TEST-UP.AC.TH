@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a__1</name>
+   <name>ประวัติความเป็นมา</name>
    <tag></tag>
    <elementGuidId>ecd1498c-9585-4ade-920e-f9aab9d46d65</elementGuidId>
    <selectorCollection>

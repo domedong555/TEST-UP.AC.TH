@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>เกี่ยวกับเรา</name>
    <tag></tag>
-   <elementGuidId>0e83d094-64af-416f-8737-85602cfe6127</elementGuidId>
+   <elementGuidId>676e8343-32a5-4d3a-ac07-4c9def5540e6</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'เกี่ยวกับเรา' or . = 'เกี่ยวกับเรา')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='menu-main-menu']/li[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

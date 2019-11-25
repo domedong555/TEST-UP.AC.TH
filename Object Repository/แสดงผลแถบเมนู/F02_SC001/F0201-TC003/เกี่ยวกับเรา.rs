@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>เกี่ยวกับเรา</name>
    <tag></tag>
-   <elementGuidId>676e8343-32a5-4d3a-ac07-4c9def5540e6</elementGuidId>
+   <elementGuidId>d84ff5e6-c7b6-41b7-8f80-03ca2b61c890</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

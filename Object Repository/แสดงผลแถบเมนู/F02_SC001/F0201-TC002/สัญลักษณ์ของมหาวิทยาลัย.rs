@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a__1</name>
+   <name>สัญลักษณ์ของมหาวิทยาลัย</name>
    <tag></tag>
    <elementGuidId>55cbcfb9-5a44-4c24-9330-6c2df42fb1aa</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'Intro_Symbol.aspx' and (text() = 'สัญลักษณ์ของมหาวิทยาลัย' or . = 'สัญลักษณ์ของมหาวิทยาลัย')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//ul[@id='menu-main-menu']/li[2]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

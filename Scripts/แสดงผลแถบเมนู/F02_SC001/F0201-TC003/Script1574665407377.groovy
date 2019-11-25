@@ -20,9 +20,12 @@ WebUI.openBrowser('www.up.ac.th')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เกี่ยวกับเรา'))
+
 WebUI.delay(1)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/สัญลักษณ์ของมหาวิทยาลัย'))
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/สารจากท่านอธิการบดี'))
 WebUI.delay(1)
+
 WebUI.closeBrowser()
 

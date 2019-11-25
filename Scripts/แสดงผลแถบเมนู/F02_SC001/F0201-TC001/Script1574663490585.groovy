@@ -20,11 +20,11 @@ WebUI.openBrowser('www.up.ac.th')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/a_'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/a__1'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/ประวัติความเป็นมา'))
 
 WebUI.delay(1)
 
