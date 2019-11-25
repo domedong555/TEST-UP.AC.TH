@@ -14,4 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('www.up.ac.th')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/a_'))
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/a__1'))
+
+WebUI.closeBrowser()
 
