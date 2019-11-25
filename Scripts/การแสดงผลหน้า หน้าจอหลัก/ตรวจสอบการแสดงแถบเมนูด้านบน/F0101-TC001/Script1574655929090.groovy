@@ -22,7 +22,7 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/เกี่ยวกับเรา/Page_University of Phayao/a_'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 
