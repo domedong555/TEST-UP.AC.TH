@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการสไลด์รูปโดยการกดปุ่ม จุด เพื่อสไลต์รูป</description>
+   <name>F0102-TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4c2a55d-c1ba-448f-b068-39fd2be9088b</testCaseGuid>
+</TestCaseEntity>
