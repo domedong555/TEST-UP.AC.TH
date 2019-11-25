@@ -17,18 +17,53 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser('www.up.ac.th')
+WebUI.openBrowser(GlobalVariable.G_url)
 
 WebUI.maximizeWindow()
 
+WebUI.delay(1)
+
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เกี่ยวกับเรา'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/สารจากท่านอธิการบดี'))
+// check Intro_welcome
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
 
 WebUI.delay(1)
+
+'แสดงหน้าจอ สารจากท่านอธิการบดี'
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC003/สารจากท่านอธิการบดี'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เจตจำนง'))
+
+WebUI.delay(2)
+
+///check video present
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/video'), 20)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาไทย'))
+
+WebUI.delay(2)
+
+///check thai language document
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาไทย'), 20)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาอังกฤษ'))
+
+WebUI.delay(2)
+
+///check thai language document
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาอังกฤษ'), 20)
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
