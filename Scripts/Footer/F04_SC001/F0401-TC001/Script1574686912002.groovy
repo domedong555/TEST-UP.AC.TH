@@ -23,14 +23,14 @@ WebUI.delay(2)
 "แสดง ลิ้งที่เกี่ยวข้อง"
 //check widget-title menu
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
-WebUI.click(findTestObject('Object Repository/Footer/TC001/aside'))
+WebUI.click(findTestObject('Footer/F0401-TC001/TC001/aside'))
 
 WebUI.delay(2)
 
 "คลิก QA Information System และ แสดงหน้า QA information"
 //check QA information system
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/TC001/QA Information System'),20)
-WebUI.click(findTestObject('Object Repository/Footer/TC001/QA Information System'))
+WebUI.verifyElementPresent(findTestObject('Footer/F0401-TC001/TC001/QA Information System'),20)
+WebUI.click(findTestObject('Footer/F0401-TC001/TC001/QA Information System'))
 
 WebUI.delay(5)
 
