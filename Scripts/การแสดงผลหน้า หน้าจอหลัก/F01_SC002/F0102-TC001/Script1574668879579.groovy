@@ -20,9 +20,49 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
+WebUI.maximizeWindow()
+
 WebUI.delay(3)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
