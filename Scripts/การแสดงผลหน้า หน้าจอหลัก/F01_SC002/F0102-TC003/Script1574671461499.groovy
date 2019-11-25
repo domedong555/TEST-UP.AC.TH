@@ -23,7 +23,6 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
-WebUI.verify
 
 WebUI.closeBrowser()
 
