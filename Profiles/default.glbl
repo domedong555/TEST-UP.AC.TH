@@ -4,19 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'ประวัติความเป็นมา'</initValue>
-      <name>G_history</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'www.up.ac.th'</initValue>
-      <name>G_url</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'สัญลักษณ์ของมหาวิทยาลัย'</initValue>
-      <name>G_symbol</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

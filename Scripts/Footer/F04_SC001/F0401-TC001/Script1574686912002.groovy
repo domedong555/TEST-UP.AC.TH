@@ -14,27 +14,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-'แสดงหน้า หน้าจอหลัก'
+"แสดง หน้าจอหลัก"
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
-WebUI.delay(1)
 
-'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
-WebUI.delay(1)
-///Check  Menu Intro_welcome 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
 WebUI.delay(2)
 
-'แสดงหน้าจอ โครงสร้างองค์กร'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC004/โครงสร้างองค์กร'))
+"แสดง ลิ้งที่เกี่ยวข้อง"
+//check widget-title menu
+WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.click(findTestObject('Footer/F0401-TC001/TC001/aside'))
+
 WebUI.delay(2)
 
-///check picture 
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC004/รูปโครงสร้างองค์กร'), 20)
-WebUI.delay(2)
+"คลิก QA Information System และ แสดงหน้า QA information"
+//check QA information system
+WebUI.verifyElementPresent(findTestObject('Footer/F0401-TC001/TC001/QA Information System'),20)
+WebUI.click(findTestObject('Footer/F0401-TC001/TC001/QA Information System'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
