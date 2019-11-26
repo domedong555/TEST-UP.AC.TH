@@ -29,7 +29,7 @@ WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
 WebUI.delay(1)
 
-'แสดงหน้าจอ สารจากท่านอธิการบดี'
+'แสดงหน้าจอ สารจากอธิการบดี'
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC003/สารจากท่านอธิการบดี'))
 WebUI.delay(2)
 

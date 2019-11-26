@@ -4,4 +4,39 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'www.up.ac.th'</initValue>
+      <name>G_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'โครงสร้างองค์กร'</initValue>
+      <name>G_Intro_Organizational</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ประวัติความเป็นมา'</initValue>
+      <name>G_history</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'สัญลักษณ์ของมหาวิทยาลัย'</initValue>
+      <name>G_Symbol</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'สารจากอธิการบดี'</initValue>
+      <name>G_Intro_welcome</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ผู้บริหารมหาวิทยาลัยพะเยา'</initValue>
+      <name>G_Administrator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'อำนาจหน้าที่'</initValue>
+      <name>Intro_Authority</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
