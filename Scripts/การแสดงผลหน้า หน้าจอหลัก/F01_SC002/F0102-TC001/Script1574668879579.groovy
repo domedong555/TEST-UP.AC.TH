@@ -18,51 +18,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures'), 20)
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
-
-WebUI.delay(1)
+'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Picturebtn_prev'))
 
 WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
-
-WebUI.delay(1)
+'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Picturebtn_next'))
 
 WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

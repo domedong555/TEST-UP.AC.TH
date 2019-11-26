@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -22,38 +21,6 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
-
-'ตรวจสอบการแสดงเมนู'
-WebUI.delay(3)
-
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-'ตรวจสอบการแสดงเมนู'
-WebUI.delay(3)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
-
-WebUI.verifyElementPresent(findTestObject(null), 20)
 
 WebUI.delay(3)
 
