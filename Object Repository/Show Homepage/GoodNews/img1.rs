@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img1</name>
+   <tag></tag>
+   <elementGuidId>0dc43bf4-9455-4bd7-81ab-32132f12f32e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='content']/section[3]/div/div/div/div/div/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-responsive</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://addnews.up.ac.th/Fileupload/Thumb/S__6299686_637103650145452780.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>ม.พะเยา ร่วมต้อนรับครูแนะแนวทั่วประเทศ พร้อมเยี่ยมชมมหาวิทยาลัยพะเยา</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/section[@class=&quot;fullwidth-row&quot;]/div[@class=&quot;container content-padding-lg&quot;]/div[@class=&quot;row animated animated_off&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-lg-12 form-group&quot;]/div[1]/div[@class=&quot;col-sm-4 col-xs&quot;]/div[@class=&quot;person page-order-detail mborder2&quot;]/a[1]/img[@class=&quot;img-responsive&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='content']/section[3]/div/div/div/div/div/div/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='ม.พะเยา ร่วมต้อนรับครูแนะแนวทั่วประเทศ พร้อมเยี่ยมชมมหาวิทยาลัยพะเยา']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

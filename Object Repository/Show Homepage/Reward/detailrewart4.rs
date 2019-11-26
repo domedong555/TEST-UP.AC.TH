@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>detailrewart4</name>
+   <tag></tag>
+   <elementGuidId>c30abef6-1aa8-40d9-95d3-e2eeb13fe8d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='content']/section[4]/div/div/div/div[2]/div[4]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>#ด้านการผลิตบัณฑิต      13 พ.ย. 2562    116</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/section[@class=&quot;container-fluid content-padding-lg&quot;]/div[@class=&quot;row animated animated_off&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-lg-offset-2 form-group&quot;]/div[@class=&quot;col-sm-3 col-xs&quot;]/div[@class=&quot;person page-order-detail mborder5&quot;]/div[1]/span[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='content']/section[4]/div/div/div/div[2]/div[4]/div/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#ด้านการผลิตบัณฑิต'])[15]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

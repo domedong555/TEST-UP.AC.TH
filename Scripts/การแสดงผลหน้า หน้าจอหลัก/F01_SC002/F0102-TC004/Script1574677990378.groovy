@@ -17,11 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
+WebUI.delay(1.5)
+
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+
+WebUI.dragAndDropByOffset(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures 2'), 250, 250)
+
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures 2'), 20)
+
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

@@ -57,5 +57,6 @@ WebUI.verifyElementPresent(findTestObject(null), 20)
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

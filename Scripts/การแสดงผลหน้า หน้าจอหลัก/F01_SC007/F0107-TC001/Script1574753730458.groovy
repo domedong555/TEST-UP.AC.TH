@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -23,12 +22,18 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
+'แสดงหน้าผลงานวิจัย / บทความวิจัย\r\n-ผลงานวิจัย\r\n-วันที่ลง\r\n-จำนวนคนดู\r\n-ภาพเกี่ยวกับบทความ\r\n--มีหัวข้อใต้ภาพ\r\n-ด้านต่างๆที่แสดง #'
 WebUI.delay(3)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'), 20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail1'), 20)
 
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'))
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail2'), 20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail3'), 20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail4'), 20)
+
+WebUI.waitForElementClickable(findTestObject('Show Homepage/Research/Allresearch_News'), 20)
 
 WebUI.delay(3)
 

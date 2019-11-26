@@ -24,5 +24,15 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
+'ตรวจสอบการแสดง ข่าวสาร ความเคลื่อนไหว\r\n- มีการแสดงรูปข่าวสารความเคลื่อไหว 4 รูป\r\n- หัวข้อใต้รูป\r\n- เลื่อน preview รูปอัตโนมัติ\r\n- แสดงวันที่\r\n- แสดงจำนวนคนดู\r\n- แสดงประเภท #\r\n- แสดงสถานะว่าเป็นข่าวใหม่'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Active/All_activeNews'), 
+    60)
+
+'ตรวจสอบการแสดง ข่าวสาร ความเคลื่อนไหว\r\n- สามารถกดดู "ข่าวทั้งหมด" ด้านข้างหัวข้อได้'
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Active/ShowAll_activeNews'))
+
+WebUI.delay(3)
+
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 
