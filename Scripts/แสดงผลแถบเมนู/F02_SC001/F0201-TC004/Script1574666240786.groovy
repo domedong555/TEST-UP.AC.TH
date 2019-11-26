@@ -24,7 +24,7 @@ WebUI.delay(1)
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
-///Check  Menu Intro_welcome 
+///Check  Menu Intro_Organizational
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_Organizational, false)
 WebUI.delay(2)
 
