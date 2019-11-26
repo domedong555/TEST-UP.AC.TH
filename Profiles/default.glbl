@@ -24,4 +24,9 @@
       <initValue>'โครงสร้างองค์กร'</initValue>
       <name>Intro_Organizational</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'สัญลักษณ์ของมหาวิทยาลัย'</initValue>
+      <name>G_Symbol</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

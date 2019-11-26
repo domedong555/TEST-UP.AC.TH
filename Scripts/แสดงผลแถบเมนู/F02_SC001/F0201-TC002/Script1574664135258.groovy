@@ -29,7 +29,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///check symbol menu
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Symbol, false)
 WebUI.delay(1)
 
 'แสดงหน้า ประวัติความเป็นมา'
