@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'www.up.ac.th'</initValue>
-      <name>G_Url</name>
+      <name>G_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
