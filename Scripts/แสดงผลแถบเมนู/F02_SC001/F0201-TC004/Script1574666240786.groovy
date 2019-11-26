@@ -25,7 +25,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Intro_welcome 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Organizational, false)
 WebUI.delay(2)
 
 'แสดงหน้าจอ โครงสร้างองค์กร'
