@@ -15,8 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser('')
+
+'แสดงหน้า "หน้าจอหลัก"'
+WebUI.navigateToUrl('https://www.up.ac.th/th/')
+
 WebUI.maximizeWindow()
-WebUI.delay(1)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 
