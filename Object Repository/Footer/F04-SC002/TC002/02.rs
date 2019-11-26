@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>QA Information System</name>
+   <name>02</name>
    <tag></tag>
-   <elementGuidId>f0f42305-79dc-4613-92de-a136457acbea</elementGuidId>
+   <elementGuidId>a758ced7-1afe-44dd-8ccf-6a70503ba711</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-footer']/aside/ul/li/a</value>
+         <value>//div[@id='main-footer']/aside[2]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://app.up.ac.th/qadb</value>
+      <value>http://www.mua.go.th/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,76 +38,76 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>QA Information System</value>
+      <value>สำนักงานคณะกรรมการการอุดมศึกษา</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-footer&quot;)/aside[@class=&quot;col-lg-4 col-md-4 col-sm-4 widget&quot;]/ul[@class=&quot;links&quot;]/li[1]/a[1]</value>
+      <value>id(&quot;main-footer&quot;)/aside[@class=&quot;col-lg-4 col-md-4 col-sm-4 widget&quot;]/ul[@class=&quot;links&quot;]/li[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-footer']/aside/ul/li/a</value>
+      <value>//div[@id='main-footer']/aside[2]/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'QA Information System')]</value>
+      <value>//a[contains(text(),'สำนักงานคณะกรรมการการอุดมศึกษา')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ลิงค์เกี่ยวข้อง'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='สมาคมอธิการบดีแห่งประเทศไทย'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='UP Clip ทั้งหมด'])[1]/following::a[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ลิงค์อื่นๆ'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ระบบสนับสนุนการตัดสินใจสำหรับผู้บริหาร'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='วารสารมหาวิทยาลัยพะเยา'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='กลุ่มสถาบันแพทย์ศาสตร์แห่งประเทศไทย'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='QA Information System']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='สำนักงานคณะกรรมการการอุดมศึกษา']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://app.up.ac.th/qadb']</value>
+      <value>//a[@href='http://www.mua.go.th/']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//aside/ul/li/a</value>
+      <value>//aside[2]/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>
