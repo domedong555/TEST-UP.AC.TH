@@ -18,20 +18,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Picturebtn_owl-dot'), 20)
+WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
 
 WebUI.delay(3)
 
-'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

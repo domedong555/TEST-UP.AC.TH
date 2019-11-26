@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>ตรวจสอบการเปลี่ยนโดยการคลิกเมาส์ที่รูปค้างไว้แล้วลาก</description>
-   <name>F0102-TC004</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4f309413-802a-4390-af2c-7f30adc1a6d7</testCaseGuid>
-</TestCaseEntity>
