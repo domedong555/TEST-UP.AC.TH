@@ -38,6 +38,7 @@ WebUI.click(findTestObject('Footer/F04-SC001/TC001/QA Information System'))
 
 
 
+
 WebUI.delay(10)
 
 WebUI.closeBrowser()
