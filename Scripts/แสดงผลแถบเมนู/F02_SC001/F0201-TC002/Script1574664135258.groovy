@@ -18,9 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
-
 WebUI.maximizeWindow()
-
 WebUI.delay(1)
 
 ///Check about menu
@@ -39,9 +37,6 @@ WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("สัญลักษณ์ของมหาวิทยาลัย", false)
-WebUI.delay(1)
-
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/พระพุทธภุชคารักษ์'))
