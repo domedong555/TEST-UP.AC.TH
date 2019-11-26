@@ -37,6 +37,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'อำนาจหน้าที่'</initValue>
-      <name>Intro_Authority</name>
+      <name>G_Intro_Authority</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ปรัชญา / ปณิธาน / วิสัยทัศน์ / พันธกิจ'</initValue>
+      <name>G_Intro_About2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
