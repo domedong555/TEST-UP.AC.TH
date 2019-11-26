@@ -14,40 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.up.ac.th/th/')
-
+'แสดงหน้า หน้าจอหลัก'
+WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
-
-WebUI.delay(3)
-
-<<<<<<< HEAD
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'), 20)
-=======
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
+'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
-
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'))
-
-WebUI.delay(3)
-
-WebUI.closeBrowser()
-
+///Check  Menu Intro_Authority
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
+WebUI.delay(2)

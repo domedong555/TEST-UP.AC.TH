@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>video</name>
+   <name>อธิการบดีมหาวิทยาลัยพะเยา</name>
    <tag></tag>
-   <elementGuidId>699d3763-4b9f-4e79-bf1c-668ba98555ff</elementGuidId>
+   <elementGuidId>10d26bad-1aae-4552-8b2c-f25d81067a0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//video[@id='myVideo']</value>
+         <value>//article[@id='content']/section/div/div/div/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>video</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>myVideo</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>width</name>
-      <type>Main</type>
-      <value>100%</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>controls</name>
-      <type>Main</type>
-      <value>controls</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autoplay</name>
-      <type>Main</type>
-      <value>autoplay</value>
+      <value>อธิการบดีมหาวิทยาลัยพะเยา</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;myVideo&quot;)</value>
+      <value>id(&quot;site&quot;)/article[@id=&quot;content&quot;]/article[@id=&quot;content&quot;]/section[@class=&quot;fullwidth-row bg-7 fixed cover&quot;]/div[@class=&quot;container content-padding-lg content-padding-mobile-none white-box-mobile&quot;]/div[@class=&quot;row animated animated_off&quot;]/div[@class=&quot;col-md-4 col-lg-offset-4&quot;]/div[@class=&quot;card mb-4 shadow-sm page-order-detail&quot;]/p[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//video[@id='myVideo']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//article[@id='content']/section/div/div/div[2]/div[2]/video</value>
+      <value>//article[@id='content']/section/div/div/div/div/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='เจตจำนงสุจริต'])[1]/following::video[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='รศ.ดร.สุภกร พงศบางโพธิ์'])[1]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='สารจากท่านอธิการบดี'])[2]/following::video[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เกี่ยวกับ มพ. > ผู้บริหารมหาวิทยาลัยพะเยา > ผู้บริหาร'])[1]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ภาษาไทย'])[1]/preceding::video[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='รศ.ดร.ฐิติรัตน์ เชี่ยวสุวรรณ'])[1]/preceding::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ภาษาอังกฤษ'])[1]/preceding::video[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='รศ.ดร.เสมอ ถาน้อย'])[1]/preceding::p[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='อธิการบดีมหาวิทยาลัยพะเยา']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//video</value>
+      <value>//p</value>
    </webElementXpaths>
 </WebElementEntity>
