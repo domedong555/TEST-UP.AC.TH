@@ -21,6 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'สารจากอธิการบดี'</initValue>
       <name>G_Intro_welcome</name>
    </GlobalVariableEntity>
@@ -28,5 +29,9 @@
       <description></description>
       <initValue>'โครงสร้างองค์กร'</initValue>
       <name>G_Intro_Organizational</name>
+=======
+      <initValue>'ลิงค์เกี่ยวข้อง'</initValue>
+      <name>G_widgettitle</name>
+>>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
    </GlobalVariableEntity>
 </GlobalVariableEntities>
