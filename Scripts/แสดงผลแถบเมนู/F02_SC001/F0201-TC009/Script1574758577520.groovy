@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+
 'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
@@ -22,13 +23,15 @@ WebUI.delay(1)
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
-///Check  Menu Intro_Authority
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
+///Check  Menu Intro_About2
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_About2, false)
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC008/อำนาจและหน้าที่'))
+
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/ปรัชญา ปณิธาน วิสัยทัศน์ พันธกิจ'))
 WebUI.delay(1)
 
-///Check Show Intro_Authority page
+///Check Show Intro_About2 page
 WebUI.verifyTextPresent("เกี่ยวกับเรา > อำนาจหน้าที่", false)
 WebUI.delay(1)
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/ปรัชญา และปณิธาน มหาวิทยาลัยพะเยา')) 
+WebUI.delay(1)

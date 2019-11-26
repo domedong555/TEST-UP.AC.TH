@@ -3,7 +3,7 @@
    <description></description>
    <name>aside</name>
    <tag></tag>
-   <elementGuidId>b37d01c0-afce-400d-b259-627b9c35d8dd</elementGuidId>
+   <elementGuidId>961060d8-2497-463a-a1fc-8306f6a74b7d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

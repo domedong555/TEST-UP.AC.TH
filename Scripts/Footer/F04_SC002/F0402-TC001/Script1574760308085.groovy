@@ -14,21 +14,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-'แสดงหน้า หน้าจอหลัก'
+
+'แสดง หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
-WebUI.delay(1)
 
-'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
-WebUI.delay(1)
-///Check  Menu Intro_Authority
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC008/อำนาจและหน้าที่'))
-WebUI.delay(1)
 
-///Check Show Intro_Authority page
-WebUI.verifyTextPresent("เกี่ยวกับเรา > อำนาจหน้าที่", false)
-WebUI.delay(1)
+'แสดงเมนู ลิ้งที่เกี่ยวข้อง'
+//Check widget-title menu
+WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.click(findTestObject('Footer/F04-SC001/aside'))
+
+WebUI.delay(2)
+
+'คลิก สมาคมอธิการบดีแห่งประเทศไทย และ แสดงหน้า สมาคมอธิการบดีแห่งประเทศไทย'
+//Check Association of Chancellors of Thailand
+WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04-SC002/TC001/01'),10)
+WebUI.click(findTestObject('Object Repository/Footer/F04-SC002/TC001/01'))
+
+
+WebUI.delay(30)
+
 WebUI.closeBrowser()
