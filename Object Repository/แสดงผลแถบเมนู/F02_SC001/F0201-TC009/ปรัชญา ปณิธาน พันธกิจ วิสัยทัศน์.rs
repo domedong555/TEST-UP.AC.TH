@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ปรัชญา ปณิธาน วิสัยทัศน์ พันธกิจ</name>
+   <name>ปรัชญา ปณิธาน พันธกิจ วิสัยทัศน์</name>
    <tag></tag>
    <elementGuidId>23852691-c027-4336-ac7f-5cc9d228160b</elementGuidId>
    <selectorCollection>
@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//ul[@id='menu-main-menu']/li[2]/ul/li[7]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'Intro_About2.aspx' and (text() = 'ปรัชญา / ปณิธาน / พันธกิจ / วิสัยทัศน์' or . = 'ปรัชญา / ปณิธาน / พันธกิจ / วิสัยทัศน์')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,25 +6,6 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'ประวัติความเป็นมา'</initValue>
-      <name>G_history</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'www.up.ac.th'</initValue>
-      <name>G_url</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'สัญลักษณ์ของมหาวิทยาลัย'</initValue>
-      <name>G_symbol</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Test'</initValue>
-      <name>G_Test</name>
-=======
       <initValue>'www.up.ac.th'</initValue>
       <name>G_url</name>
    </GlobalVariableEntity>
@@ -56,16 +37,21 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'อำนาจหน้าที่'</initValue>
-<<<<<<< HEAD
       <name>G_Intro_Authority</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ปรัชญา / ปณิธาน / วิสัยทัศน์ / พันธกิจ'</initValue>
+      <initValue>'ปรัชญา / ปณิธาน / พันธกิจ / วิสัยทัศน์'</initValue>
       <name>G_Intro_About2</name>
-=======
-      <name>Intro_Authority</name>
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'แผนยุทธศาสตร์'</initValue>
+      <name>G_Intro_Strategic</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'แผน/มาตรการต่างๆ'</initValue>
+      <name>G_Intro_etc</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

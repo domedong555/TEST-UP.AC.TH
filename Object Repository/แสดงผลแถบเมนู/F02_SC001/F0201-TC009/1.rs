@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ปรัชญา และปณิธาน มหาวิทยาลัยพะเยา</name>
+   <name>1</name>
    <tag></tag>
-   <elementGuidId>f312e4ba-fb37-497d-9970-a334314e6c51</elementGuidId>
+   <elementGuidId>2d290c29-ecf4-4a82-8bbc-96c24ca43f44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <value>wpb_wrapper</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -60,7 +60,7 @@
       <value>id(&quot;site&quot;)/article[@id=&quot;content&quot;]/article[@id=&quot;content&quot;]/section[@class=&quot;container content-padding-lg&quot;]/div[@class=&quot;row animated animated_off&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;wpb_text_column wpb_content_element&quot;]/div[@class=&quot;wpb_wrapper&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
