@@ -14,40 +14,53 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'), 20)
-=======
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img1'), 
+    20)
 
-WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title1'), 
+    20)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
-
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'))
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Detail1'), 
+    20)
 
 WebUI.delay(3)
 
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img2'), 
+    20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title2'), 
+    20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Deatail3'), 
+    20)
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title3'), 
+    20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img3'), 
+    20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Deatail3'), 
+    20)
+
+WebUI.delay(3)
+
+WebUI.verifyElementClickable(findTestObject('Show Homepage/GoodNews/allgoodnews'))
+
+WebUI.delay(3)
+
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

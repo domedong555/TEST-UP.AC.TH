@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงผลเรื่องเด่น</description>
+   <name>F0104-TC001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6fbec9ed-549c-4797-98c7-581cfc12d3c6</testCaseGuid>
+</TestCaseEntity>

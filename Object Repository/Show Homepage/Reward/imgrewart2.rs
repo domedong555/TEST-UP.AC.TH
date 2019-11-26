@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>imgrewart2</name>
+   <tag></tag>
+   <elementGuidId>aa0bc446-9c7c-41b5-9681-ab614a02ab6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='content']/section[4]/div/div/div/div[2]/div[2]/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-responsive</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://addnews.up.ac.th/Fileupload/Thumb/messageImage_1573704636990_637093274919189075.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>นิสิตสาขาวิชาการประชาสัมพันธ์ คณะวิทยาการจัดการและสารสนเทศศาสตร์ มหาวิทยาลัยพะเยา ได้รับคัดเลือกเข้ารับการอบรมเชิงปฏิบัติการ&quot;นักข่าวพิราบน้อย&quot;รุ่นที่ 22 จัดโดยสมาคมนักข่าวนักหนังสือพิมพ์แห่งประเทศไทย และบริษัท ทรู คอร์ปอเรชั่น จำกัด (มหาชน)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/section[@class=&quot;container-fluid content-padding-lg&quot;]/div[@class=&quot;row animated animated_off&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-lg-offset-2 form-group&quot;]/div[@class=&quot;col-sm-3 col-xs&quot;]/div[@class=&quot;person page-order-detail mborder5&quot;]/a[1]/img[@class=&quot;img-responsive&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='content']/section[4]/div/div/div/div[2]/div[2]/div/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='นิสิตสาขาวิชาการประชาสัมพันธ์ คณะวิทยาการจัดการและสารสนเทศศาสตร์ มหาวิทยาลัยพะเยา ได้รับคัดเลือกเข้ารับการอบรมเชิงปฏิบัติการ&quot;นักข่าวพิราบน้อย&quot;รุ่นที่ 22 จัดโดยสมาคมนักข่าวนักหนังสือพิมพ์แห่งประเทศไทย และบริษัท ทรู คอร์ปอเรชั่น จำกัด (มหาชน)']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

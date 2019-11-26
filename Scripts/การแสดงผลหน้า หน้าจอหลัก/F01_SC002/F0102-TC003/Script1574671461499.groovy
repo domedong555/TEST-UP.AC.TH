@@ -18,11 +18,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
+WebUI.waitForElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+
+WebUI.waitForElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures 2'), 20)
+
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures 2'), 20)
+
+WebUI.delay(3)
+
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

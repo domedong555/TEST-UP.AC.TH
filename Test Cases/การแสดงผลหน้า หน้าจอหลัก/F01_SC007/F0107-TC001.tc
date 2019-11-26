@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดง ผลงานวิจัย / บทความวิจัย</description>
+   <name>F0107-TC001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20a8a20e-159a-4de7-84c2-587d6febfe7a</testCaseGuid>
+</TestCaseEntity>

@@ -24,14 +24,28 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
+<<<<<<< HEAD
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+=======
 WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+>>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
+
+<<<<<<< HEAD
+'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+=======
+WebUI.delay(1)
+>>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
-
-WebUI.delay(1)
-
+<<<<<<< HEAD
+'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
+=======
 WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
 
 WebUI.delay(1)
@@ -59,8 +73,9 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
 
 WebUI.delay(1)
+>>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_next'))
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
 
 WebUI.delay(3)
 

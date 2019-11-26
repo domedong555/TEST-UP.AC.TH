@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงผลปฏิทินกิจกรรม</description>
+   <name>F0103-TC001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd246ee5-baf4-4a34-b4a5-cc4c841b92f6</testCaseGuid>
+</TestCaseEntity>

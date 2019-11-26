@@ -30,5 +30,6 @@ WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 
