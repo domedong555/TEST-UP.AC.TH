@@ -29,6 +29,12 @@ WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/degree')
 
 WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/interest'), 'ผู้สนใจเข้าศึกษา')
 
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/course'), 'หลักสูตรที่เปิดสอน')
+
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/only_teacher'), 'สำหรับครูแนะแนว')
+
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/train'), 'หลักสูตรอบรม')
+
 WebUI.delay(3)
 
 'ปิดหน้าเว็บ'
