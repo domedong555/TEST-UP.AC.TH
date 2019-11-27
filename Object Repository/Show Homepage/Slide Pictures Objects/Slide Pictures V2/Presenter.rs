@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Slide Pictures</name>
+   <name>Presenter</name>
    <tag></tag>
-   <elementGuidId>3710f1d7-0990-4d96-b5c6-13ef1bbd8609</elementGuidId>
+   <elementGuidId>167e96ea-3a77-48fe-a250-a7cc682b9243</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='maxslide2']/div/div/div[3]/div/img</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@src = 'slide/f4.jpg']</value>
+         <value>//div[@id='maxslide2']/div/div/div[6]/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>slide/f4.jpg</value>
+      <value>slide/f8.jpg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,13 +45,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='maxslide2']/div/div/div[3]/div/img</value>
+      <value>//div[@id='maxslide2']/div/div/div[6]/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/img</value>
+      <value>//div[6]/div/img</value>
    </webElementXpaths>
 </WebElementEntity>

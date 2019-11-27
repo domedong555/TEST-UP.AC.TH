@@ -16,27 +16,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'เปิดหน้าหลักของ up.ac.th\r\n'
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
+'กดที่ติดต่อเรา'
 WebUI.click(findTestObject('SentMessages/HOUP/a_Contact'))
 
 WebUI.delay(1)
 
+'กด "ช่องทางแจ้งเรื่องร้องเรียนการทุจริต"'
 WebUI.click(findTestObject('SentMessages/HOUP/a__1'))
 
+'กรอก ชื่อ-สกุล'
 WebUI.setText(findTestObject('SentMessages/Function/input_name'), 'Naphatsakorn S.')
 
+'กรอก "อีเมล"'
 WebUI.setText(findTestObject('SentMessages/Function/input_email'), 'james.11350@gmail.com')
 
+'กรอก "หัวข้อที่ต้องการร้องเรียน"'
 WebUI.setText(findTestObject('SentMessages/Function/input_title'), 'Test')
 
+'กรอก "ข้อความที่ต้องการร้องเรียน"'
 WebUI.setText(findTestObject('SentMessages/Function/input_textarea'), 'Test Test')
 
+'กด"ส่งข้อความ"'
 WebUI.click(findTestObject('SentMessages/Function/sent'))
 
 WebUI.delay(1)
 
+'ปิด "Browser"'
 WebUI.closeBrowser()
 
