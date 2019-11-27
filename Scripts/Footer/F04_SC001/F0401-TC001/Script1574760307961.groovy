@@ -25,7 +25,6 @@ WebUI.delay(2)
 //check widget-title menu
 'แสดงเมนู ลิ้งที่เกี่ยวข้อง'
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
-
 WebUI.click(findTestObject('Footer/F04-SC001/aside'))
 
 WebUI.delay(2)
@@ -33,7 +32,6 @@ WebUI.delay(2)
 //check QA information system
 'คลิก QA Information System และ แสดงหน้า QA information'
 WebUI.verifyElementPresent(findTestObject('Footer/F04-SC001/TC001/QA Information System'), 10)
-
 WebUI.click(findTestObject('Footer/F04-SC001/TC001/QA Information System'))
 
 
