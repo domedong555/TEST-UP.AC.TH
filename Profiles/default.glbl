@@ -4,6 +4,7 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+<<<<<<< HEAD
    <GlobalVariableEntity>
       <description></description>
       <initValue>'www.up.ac.th'</initValue>
@@ -59,4 +60,6 @@
       <initValue>'วัฒนธรรมองค์กร'</initValue>
       <name>G_personnel</name>
    </GlobalVariableEntity>
+=======
+>>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 </GlobalVariableEntities>
