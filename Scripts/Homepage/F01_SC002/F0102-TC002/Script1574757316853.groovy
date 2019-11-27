@@ -24,7 +24,31 @@ WebUI.maximizeWindow()
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dotAll'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot2'))
+
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot3'))
+
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot4'))
+
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot5'))
+
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'))
 
 WebUI.delay(3)
 

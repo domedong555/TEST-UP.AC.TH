@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Slide Pictures</name>
+   <name>UP Sign</name>
    <tag></tag>
-   <elementGuidId>3710f1d7-0990-4d96-b5c6-13ef1bbd8609</elementGuidId>
+   <elementGuidId>a0aecda0-7b6b-4d61-b1f5-526627d2a492</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='maxslide2']/div/div/div[3]/div/img</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@src = 'slide/f4.jpg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
