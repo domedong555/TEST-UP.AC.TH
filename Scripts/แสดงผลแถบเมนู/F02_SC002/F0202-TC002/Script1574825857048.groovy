@@ -35,4 +35,6 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC002/F0202-TC001/ช่องค้นหา'))
 WebUI.delay(1)
 WebUI.setText(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC002/F0202-TC001/ช่องค้นหา'),"วิจัย")
-WebUI.delay(1)
+WebUI.delay(10)
+
+WebUI.closeBrowser()
