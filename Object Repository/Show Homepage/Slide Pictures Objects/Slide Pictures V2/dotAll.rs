@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Slide Pictures</name>
+   <name>dotAll</name>
    <tag></tag>
-   <elementGuidId>3710f1d7-0990-4d96-b5c6-13ef1bbd8609</elementGuidId>
+   <elementGuidId>eb588809-db1d-4dfc-a072-9a380513a604</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='maxslide2']/div/div/div[3]/div/img</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@src = 'slide/f4.jpg']</value>
+         <value>//div[@id='maxslide2']/div[2]/div[2]/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,41 +17,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>slide/f4.jpg</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>wp-image</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;maxslide2&quot;)/div[@class=&quot;owl-stage-outer&quot;]/div[@class=&quot;owl-stage&quot;]/div[@class=&quot;owl-item active&quot;]/div[@class=&quot;item&quot;]/img[@class=&quot;wp-image&quot;]</value>
+      <value>id(&quot;maxslide2&quot;)/div[@class=&quot;owl-controls&quot;]/div[@class=&quot;owl-dots&quot;]/div[@class=&quot;owl-dot&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='maxslide2']/div/div/div[3]/div/img</value>
+      <value>//div[@id='maxslide2']/div[2]/div[2]/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/img</value>
+      <value>//div[2]/div/span</value>
    </webElementXpaths>
 </WebElementEntity>
