@@ -22,12 +22,14 @@ WebUI.maximizeWindow()
 ///Check menu personel
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
-WebUI.delay(1)
-WebUI.verifyTextPresent(GlobalVariable.G_personal_intro, false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
 WebUI.delay(1)
 
+///Check menu mail
+WebUI.verifyTextPresent(GlobalVariable.G_mail, false)
+WebUI.delay(1)
 
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/อีเมล์'))
+WebUI.delay(3)
 
 WebUI.closeBrowser()

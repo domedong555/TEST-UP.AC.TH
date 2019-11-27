@@ -19,15 +19,22 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 
-///Check menu personel
+///Check menu in manual
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
-WebUI.delay(1)
-WebUI.verifyTextPresent(GlobalVariable.G_personal_intro, false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
 WebUI.delay(1)
 
+WebUI.verifyTextPresent(GlobalVariable.G_manual, false)
+WebUI.delay(1)
 
+WebUI.navigateToUrl('https://www.up.ac.th/th/Manual.aspx')
+WebUI.delay(1)
+///check manual page
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC003/แสดงคู่มือและมาตรฐานการปฏิบัติงาน'), 20)
+WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC003/แสดงกองต่างๆ'), 20)
+WebUI.delay(1)
 
 WebUI.closeBrowser()
+
