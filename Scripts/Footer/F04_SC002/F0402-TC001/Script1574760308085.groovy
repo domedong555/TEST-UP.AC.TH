@@ -34,6 +34,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04-SC002/TC
 WebUI.click(findTestObject('Object Repository/Footer/F04-SC002/TC001/01'))
 
 
-WebUI.delay(30)
+WebUI.delay(20)
 
 WebUI.closeBrowser()

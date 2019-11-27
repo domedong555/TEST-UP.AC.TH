@@ -15,29 +15,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'แสดง หน้าจอหลัก'
+'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
-
 WebUI.maximizeWindow()
+WebUI.delay(1)
 
+'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.delay(1)
+///Check  Menu personnel
+WebUI.verifyTextPresent(GlobalVariable.G_personnel, false)
 WebUI.delay(2)
 
-//check widget-title menu
-'แสดงเมนู ลิ้งที่เกี่ยวข้อง'
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
-WebUI.click(findTestObject('Footer/F04-SC001/aside'))
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'))
+WebUI.delay(1)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
+WebUI.delay(1)
 
-//check QA information system
-'คลิก QA Information System และ แสดงหน้า QA information'
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC001/TC001/QA Information System'), 10)
-WebUI.click(findTestObject('Footer/F04-SC001/TC001/QA Information System'))
-
-
-
-
-WebUI.delay(10)
+///Check  personel page
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/แสดงผล'), 20)
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

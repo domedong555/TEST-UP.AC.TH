@@ -19,3 +19,5 @@ build
 /.settings/
 /.classpath
 .svn/
+settings/internal/com.kms.katalon.composer.testcase.properties
+*.properties
