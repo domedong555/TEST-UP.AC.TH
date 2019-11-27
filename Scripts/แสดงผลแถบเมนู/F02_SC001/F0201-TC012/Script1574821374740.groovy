@@ -66,7 +66,7 @@ WebUI.delay(1)
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
-///Check  Menu personnel
+///Check  Menu Culture
 WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
 WebUI.delay(2)
 
@@ -76,7 +76,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
 WebUI.delay(1)
 
-///Check  personel page
+///Check Culturel page
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/แสดงผล'), 20)
 WebUI.delay(1)
 
