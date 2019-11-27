@@ -23,6 +23,7 @@ WebUI.click(findTestObject('SentMessages/HOUP/a_Contact'))
 
 WebUI.delay(1)
 
+//Press_ช่องทางแจ้งเรื่องร้องเรียนทุจริต
 WebUI.click(findTestObject('SentMessages/HOUP/a__1'))
 
 WebUI.setText(findTestObject('SentMessages/Function/input_name'), 'Naphatsakorn S.')
