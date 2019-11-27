@@ -17,23 +17,24 @@ import internal.GlobalVariable as GlobalVariable
 'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
+WebUI.delay(1)
 
-
-
+WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
+WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
 WebUI.delay(1)
-///Check menu in manual2
-
-WebUI.verifyTextPresent(GlobalVariable.G_manual2, false)
+///check menu policy
+WebUI.verifyTextPresent(GlobalVariable.G_policy, false)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('https://www.up.ac.th/th/Manual2.aspx')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC008/นโยบายการบริหารทรัพยากรบุคคล'))
 WebUI.delay(1)
 
-///check manual2 page
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC004/บุคลากร-คู่มือการให้บริการ'), 20)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC009/การดำเนินการตามแผน'))
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC004/คู่มือการให้บริการ'), 20)
+
+///Check policy page
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC009/ตรวจสอบการดำเนินตามแผน'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

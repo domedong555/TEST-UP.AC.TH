@@ -31,24 +31,16 @@ WebUI.click(findTestObject('Object Repository/แสดงผลแถบเม�
 WebUI.delay(1)
 
 ///Check Show Intro_About2 page
-WebUI.verifyTextPresent("เกี่ยวกับเรา > ปรัชญา / ปณิธาน / วิสัยทัศน์ / พันธกิจ", false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/ปรัชญา และปณิธาน มหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/1'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/ปรัชญา และปณิธาน มหาวิทยาลัยพะเยา'),20)
 WebUI.delay(1)
-///Check text in Intro_About2 page
-WebUI.verifyTextPresent("ปรัชญา และปณิธาน มหาวิทยาลัยพะเยา", false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/วิสัยทัศน์'))
 WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/2'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/วิสัยทัศน์'),20)
 WebUI.delay(1)
-///Check text in Intro_About2 page
-WebUI.verifyTextPresent("วิสัยทัศน์", false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/พันธกิจ (Mission)'))
 WebUI.delay(1)
-
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC009/3'))
-WebUI.delay(1)
-///Check text in Intro_About2 page
-WebUI.verifyTextPresent("พันธกิจ (Mission)", false)
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/พันธกิจ (Mission)'),20)
 WebUI.delay(1)
 WebUI.closeBrowser()
