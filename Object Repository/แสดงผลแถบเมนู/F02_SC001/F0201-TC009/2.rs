@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>พันธกิจ (Mission)</name>
+   <name>2</name>
    <tag></tag>
-   <elementGuidId>a65c01ab-a1dd-4ca8-89b0-ea8a1a2ebd3f</elementGuidId>
+   <elementGuidId>01494460-ccc9-450a-8d33-301b139a817e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <value>container content-padding-lg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -66,7 +66,7 @@
       <value>id(&quot;site&quot;)/article[@id=&quot;content&quot;]/article[@id=&quot;content&quot;]/section[@class=&quot;container content-padding-lg&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

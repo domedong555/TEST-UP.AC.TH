@@ -23,32 +23,25 @@ WebUI.delay(1)
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
-///Check  Menu Intro_About2
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_About2, false)
+///Check  Menu Intro_etc
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_etc, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/ปรัชญา ปณิธาน พันธกิจ วิสัยทัศน์'))
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC011/แผน มาตรการต่างๆ'))
 WebUI.delay(1)
 
-///Check Show Intro_About2 page
-WebUI.verifyTextPresent("เกี่ยวกับเรา > ปรัชญา / ปณิธาน / วิสัยทัศน์ / พันธกิจ", false)
+///Check Show Intro_etc page
+WebUI.verifyTextPresent("เกี่ยวกับเรา > แผน/มาตรการต่างๆ", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/1'))
-WebUI.delay(1)
-///Check text in Intro_About2 page
-WebUI.verifyTextPresent("ปรัชญา และปณิธาน มหาวิทยาลัยพะเยา", false)
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC009/2'))
-WebUI.delay(1)
-///Check text in Intro_About2 page
-WebUI.verifyTextPresent("วิสัยทัศน์", false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC011/แผนและมาตรการ'))
+WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC011/แผนและมาตรการ'), 20)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC009/3'))
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC011/มาตรการ'))
+WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC011/มาตรการ'), 20)
 WebUI.delay(1)
-///Check text in Intro_About2 page
-WebUI.verifyTextPresent("พันธกิจ (Mission)", false)
-WebUI.delay(1)
+
 WebUI.closeBrowser()
