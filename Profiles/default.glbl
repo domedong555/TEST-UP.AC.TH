@@ -77,6 +77,31 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'บุคลากร'</initValue>
-      <name>G_personnel</name>
+      <name>G_personel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'แนะนำการใช้งาน'</initValue>
+      <name>G_personal_intro</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'อีเมล์สำหรับบุคลากร'</initValue>
+      <name>G_mail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'คู่มือและมาตรฐานการปฏิบัติงาน'</initValue>
+      <name>G_manual</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'คู่มือการให้บริการ'</initValue>
+      <name>G_manual2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'การให้บริการ'</initValue>
+      <name>G_service</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
