@@ -15,25 +15,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-"แสดง หน้าจอหลัก"
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.up.ac.th/th/')
+
 WebUI.maximizeWindow()
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-'แสดงเมนู ในส่วนของ footer'
-//check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.click(findTestObject('Show Homepage/Admission Objects/admission'))
 
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/degree'), 'หลักสูตรปริญญา')
 
-"คลิก Line และ แสดงหน้า Line "
-//check Line
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC006/TC001/Line'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC006/TC001/Line'))
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/interest'), 'ผู้สนใจเข้าศึกษา')
 
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/course'), 'หลักสูตรที่เปิดสอน')
 
-WebUI.delay(5)
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/only_teacher'), 'สำหรับครูแนะแนว')
 
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/train'), 'หลักสูตรอบรม')
+
+WebUI.delay(3)
+
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
+
