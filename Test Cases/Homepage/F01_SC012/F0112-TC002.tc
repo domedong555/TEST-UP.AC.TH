@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงเมนูย่อยของเมนู
+ข่าว</description>
+   <name>F0112-TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>358576ca-12c1-49a1-b592-3f69674a907e</testCaseGuid>
+</TestCaseEntity>
