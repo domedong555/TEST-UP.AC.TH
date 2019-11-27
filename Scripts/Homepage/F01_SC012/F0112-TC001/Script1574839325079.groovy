@@ -17,23 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
-'ตรวจสอบการแสดง ที่อยู่\r\n-มหาวิทยาลัยพะเยา\r\n19 หมู่ 2 ตำบลแม่กา อำเภอเมืองพะเยา\r\nจังหวัดพะเยา 56000\r\nโทร. 0 5446 6666\r\nโทรสาร 0 5446 6690\r\nอีเมล์. uppr@up.ac.th\r\n-ปุ่มกดสัญลักษณ์ มหาวิทยาลัย\r\n-จำนวนผู้เข้าชม\r\n-icon hitstats\r\n-icon IPv4\r\n-icon IPv6'
 WebUI.delay(3)
 
-WebUI.verifyTextPresent('มหาวิทยาลัยพะเยา', false)
+WebUI.click(findTestObject('Show Homepage/Admission Objects/admission'))
 
-WebUI.verifyElementVisible(findTestObject('Show Homepage/Footer location/imgUP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/degree'), 'หลักสูตรปริญญา')
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Footer location/statusViews'), 20)
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/interest'), 'ผู้สนใจเข้าศึกษา')
 
-WebUI.verifyElementVisible(findTestObject('Show Homepage/Footer location/imgip4'))
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/course'), 'หลักสูตรที่เปิดสอน')
 
-WebUI.verifyElementVisible(findTestObject('Show Homepage/Footer location/imgip6'))
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/only_teacher'), 'สำหรับครูแนะแนว')
+
+WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/train'), 'หลักสูตรอบรม')
 
 WebUI.delay(3)
 

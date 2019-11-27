@@ -27,13 +27,13 @@ WebUI.delay(3)
 
 WebUI.verifyTextPresent('มหาวิทยาลัยพะเยา', false)
 
-WebUI.verifyElementVisible(findTestObject('Show Homepage/Page_University of Phayao/imgUP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Footer location/imgUP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Page_University of Phayao/statusViews'), 20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Footer location/statusViews'), 20)
 
-WebUI.verifyElementVisible(findTestObject('Show Homepage/Page_University of Phayao/imgip4'))
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Footer location/imgip4'))
 
-WebUI.verifyElementVisible(findTestObject('Show Homepage/Page_University of Phayao/imgip6'))
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Footer location/imgip6'))
 
 WebUI.delay(3)
 
