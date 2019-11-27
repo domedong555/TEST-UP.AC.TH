@@ -14,26 +14,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 20)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'), 20)
+WebUI.verifyTextPresent(GlobalVariable.G_personal_intro, false)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 30)
+WebUI.verifyTextPresent(GlobalVariable.G_mail, false)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'), 20)
+WebUI.verifyTextPresent(GlobalVariable.G_manual, false)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'), 20)
+WebUI.verifyTextPresent(GlobalVariable.G_manual2, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_service, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_policy, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_manualUP, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Benefits, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_finance, false)
 
 WebUI.delay(3)
 

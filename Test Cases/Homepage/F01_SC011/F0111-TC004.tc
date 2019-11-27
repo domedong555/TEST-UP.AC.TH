@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงเมนูย่อยของเมนู บุคลากร</description>
+   <name>F0111-TC004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe993970-728a-488b-9c1e-b95126d68025</testCaseGuid>
+</TestCaseEntity>
