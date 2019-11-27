@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดง จุลสารข่าว</description>
+   <name>F0108-TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a02f14a3-5874-452d-b45c-eeba3fa73517</testCaseGuid>
+</TestCaseEntity>
