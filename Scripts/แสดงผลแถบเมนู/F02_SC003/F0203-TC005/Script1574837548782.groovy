@@ -33,5 +33,5 @@ WebUI.delay(1)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC004/บุคลากร-คู่มือการให้บริการ'), 20)
 WebUI.delay(1)
-
+WebUI.delay(1)
 WebUI.closeBrowser()
