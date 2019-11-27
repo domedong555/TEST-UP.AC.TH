@@ -63,8 +63,8 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
@@ -74,7 +74,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04-SC002/TC
 WebUI.click(findTestObject('Object Repository/Footer/F04-SC002/TC001/01'))
 
 
-WebUI.delay(20)
+WebUI.delay(5)
 
 >>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 WebUI.closeBrowser()

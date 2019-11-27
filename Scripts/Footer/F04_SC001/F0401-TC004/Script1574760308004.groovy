@@ -23,8 +23,9 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+
 
 WebUI.delay(2)
 
@@ -33,7 +34,7 @@ WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Footer/F04-SC001/TC004/04'), 10)
 WebUI.click(findTestObject('Footer/F04-SC001/TC004/04'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
