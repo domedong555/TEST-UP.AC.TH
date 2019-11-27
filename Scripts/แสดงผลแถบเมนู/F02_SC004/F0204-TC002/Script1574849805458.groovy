@@ -15,28 +15,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'แสดงหน้า หน้าจอหลัก'
+WebUI.openBrowser(GlobalVariable.G_url)
 
-WebUI.navigateToUrl('https://www.up.ac.th/th/')
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('SentMessages/HOUP/a_Contact'))
+WebUI.delay(1)
+///check menu collegian
+WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
 
 WebUI.delay(1)
 
-//Press_ช่องทางแจ้งเรื่องร้องเรียนทุจริต
-WebUI.click(findTestObject('SentMessages/HOUP/a__1'))
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('SentMessages/Function/input_name'), 'Naphatsakorn S.')
+///check menu Student_manual
+WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('SentMessages/Function/input_email'), 'james.11350#gmail.qwe')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC002/คู่มือนิสิต'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('SentMessages/Function/input_title'), 'Test')
+///check page Student_manual
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('SentMessages/Function/input_textarea'), 'Test Test')
-
-WebUI.click(findTestObject('SentMessages/Function/sent'))
-
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()
-
