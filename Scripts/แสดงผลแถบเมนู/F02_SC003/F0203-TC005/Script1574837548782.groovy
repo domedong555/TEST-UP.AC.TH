@@ -19,19 +19,28 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 
-///Check menu in manual2
+///Check menu  personel
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
 WebUI.delay(1)
-
+///check menu service
 WebUI.verifyTextPresent(GlobalVariable.G_service, false)
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
 WebUI.delay(1)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'))
+WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'), 20)
+WebUI.delay(1)
+///
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'),20)
+WebUI.delay(1)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'))
+WebUI.delay(1)
+///check service page
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/แสดงผลหน้า ข้อมูลเชิงสถิติการให้บริการ'),20)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC004/บุคลากร-คู่มือการให้บริการ'), 20)
-WebUI.delay(1)
-WebUI.delay(1)
 WebUI.closeBrowser()

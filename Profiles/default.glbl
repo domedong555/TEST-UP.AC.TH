@@ -119,4 +119,9 @@
       <initValue>'การเงิน'</initValue>
       <name>G_finance</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'นโยบาย'</initValue>
+      <name>G_policy</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
