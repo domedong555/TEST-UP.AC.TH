@@ -14,32 +14,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.up.ac.th/th/')
-
-WebUI.maximizeWindow()
-
-WebUI.delay(3)
-
-'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
-
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
-
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
-
-WebUI.delay(3)
-
-WebUI.closeBrowser()
 

@@ -22,30 +22,9 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
-
-<<<<<<< HEAD
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'), 20)
-=======
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_owl-dot'))
-
-WebUI.delay(1)
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
-
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_owl-dot'))
 
 WebUI.delay(3)
 
