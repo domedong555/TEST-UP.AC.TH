@@ -64,4 +64,9 @@
       <initValue>'กฎหมายที่เกี่ยวข้อง'</initValue>
       <name>G_Intro_Rule</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'รางวัล'</initValue>
+      <name>G_NewsTopAwardAll</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
