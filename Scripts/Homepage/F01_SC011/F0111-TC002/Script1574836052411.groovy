@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -24,22 +23,20 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ผู้บริหารมหาวิทยาลัยพะเยา'))
 
-WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประวัติอธิการบดี'), 0)
 
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC006/กรรมการสภามหาวิทยาลัย'), 0)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC007/ผู้บริหาร'), 0)
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

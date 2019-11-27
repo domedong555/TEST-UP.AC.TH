@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -24,22 +23,32 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+WebUI.verifyTextPresent(GlobalVariable.G_history, false)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+WebUI.verifyTextPresent(GlobalVariable.G_Symbol, false)
 
-WebUI.delay(1)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
 
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Organizational, false)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
+WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_About2, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Strategic, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_etc, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Rule, false)
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

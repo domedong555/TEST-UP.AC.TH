@@ -14,32 +14,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
+'ตรวจสอบการแสดง ที่อยู่\r\n-มหาวิทยาลัยพะเยา\r\n19 หมู่ 2 ตำบลแม่กา อำเภอเมืองพะเยา\r\nจังหวัดพะเยา 56000\r\nโทร. 0 5446 6666\r\nโทรสาร 0 5446 6690\r\nอีเมล์. uppr@up.ac.th\r\n-ปุ่มกดสัญลักษณ์ มหาวิทยาลัย\r\n-จำนวนผู้เข้าชม\r\n-icon hitstats\r\n-icon IPv4\r\n-icon IPv6'
 WebUI.delay(3)
 
-'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+WebUI.verifyTextPresent('มหาวิทยาลัยพะเยา', false)
 
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Page_University of Phayao/imgUP'), FailureHandling.STOP_ON_FAILURE)
 
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Page_University of Phayao/statusViews'), 20)
 
-WebUI.delay(1)
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Page_University of Phayao/imgip4'))
 
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
-
-'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
+WebUI.verifyElementVisible(findTestObject('Show Homepage/Page_University of Phayao/imgip6'))
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

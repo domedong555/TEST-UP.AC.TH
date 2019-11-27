@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดง ที่อยู่/icon hitstats
+/เว็บไซต์รองรับการใช้งาน</description>
+   <name>F0110-TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>059d8ed2-e872-4101-aa69-7ae8880ec35f</testCaseGuid>
+</TestCaseEntity>

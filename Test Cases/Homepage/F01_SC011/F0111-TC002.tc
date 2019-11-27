@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงเมนูย่อยของเมนู 
+ผู้บริหารมหาวิทยาลัยพะเยา</description>
+   <name>F0111-TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>966bb1cf-0c6c-4ff3-8fcf-5fd93c7f34a0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงเมนู ลิงค์อื่นๆ</description>
+   <name>F0110-TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d137f2f-e95f-430a-a4a0-efa21d3ae94d</testCaseGuid>
+</TestCaseEntity>
