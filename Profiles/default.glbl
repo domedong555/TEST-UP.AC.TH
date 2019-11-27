@@ -61,7 +61,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ลิงค์เกี่ยวข้อง'</initValue>
-      <name>G_widgettitle</name>
+      <initValue>'กฎหมายที่เกี่ยวข้อง'</initValue>
+      <name>G_Intro_Rule</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
