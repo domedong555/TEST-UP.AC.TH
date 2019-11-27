@@ -25,27 +25,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
-WebUI.verifyTextPresent(GlobalVariable.G_history, false)
-
-WebUI.verifyTextPresent(GlobalVariable.G_Symbol, false)
-
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
-
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_Organizational, false)
-
 WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_About2, false)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'), 0)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_Strategic, false)
-
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_etc, false)
-
-WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
-
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_Rule, false)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC013/ประมวลจริยธรรม และคุณธรรมของบุคลากร'), 0)
 
 WebUI.delay(3)
 
