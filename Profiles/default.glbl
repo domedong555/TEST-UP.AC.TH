@@ -124,4 +124,44 @@
       <initValue>'นโยบาย'</initValue>
       <name>G_policy</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'นิสิตปัจจุบัน'</initValue>
+      <name>G_collegian</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'แนะนำน้อง &quot;นิสิตปัจจุบัน&quot;'</initValue>
+      <name>G_Intro_student</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'คู่มือนิสิต'</initValue>
+      <name>G_Student_manual</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'คู่มือหรือมาตรฐานการให้บริการ'</initValue>
+      <name>G_Fidelity</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'อีเมล์สำหรับนิสิต'</initValue>
+      <name>G_mail_student</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'วิชาการ'</initValue>
+      <name>G_reg</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'กิจกรรม'</initValue>
+      <name>G_dsa</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ทุนการศึกษา'</initValue>
+      <name>G_scholarship</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
