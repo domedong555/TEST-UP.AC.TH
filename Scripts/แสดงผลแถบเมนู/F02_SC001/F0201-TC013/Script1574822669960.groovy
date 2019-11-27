@@ -63,7 +63,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu personnel 1
-WebUI.verifyTextPresent(GlobalVariable.G_personnel, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'))

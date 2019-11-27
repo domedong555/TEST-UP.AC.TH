@@ -57,7 +57,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'วัฒนธรรมองค์กร'</initValue>
-      <name>G_personnel</name>
+      <name>G_Culture</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -68,5 +68,15 @@
       <description></description>
       <initValue>'รางวัล'</initValue>
       <name>G_NewsTopAwardAll</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ลิงค์เกี่ยวข้อง'</initValue>
+      <name>G_widgettitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'บุคลากร'</initValue>
+      <name>G_personnel</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -15,3 +15,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.up.ac.th/th/')
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'), 20)
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_Symbol, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_Intro_Organizational, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.verifyTextPresent(G_history, false)
+
+WebUI.delay(3)
+
+'ปิดหน้าเว็บ'
+WebUI.closeBrowser()
+
