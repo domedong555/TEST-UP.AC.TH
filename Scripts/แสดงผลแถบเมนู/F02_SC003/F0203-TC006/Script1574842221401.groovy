@@ -35,12 +35,11 @@ WebUI.delay(1)
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'), 20)
 WebUI.delay(1)
 ///
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'),20)
 WebUI.delay(1)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'))
 WebUI.delay(1)
-///check service page
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/แสดงผลหน้า ข้อมูลเชิงสถิติการให้บริการ'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ตรวจสอบ'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()
