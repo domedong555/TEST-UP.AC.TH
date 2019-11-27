@@ -37,3 +37,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผล�
 WebUI.delay(1)
 
 WebUI.closeBrowser()
+WebUI.closeBrowser()
