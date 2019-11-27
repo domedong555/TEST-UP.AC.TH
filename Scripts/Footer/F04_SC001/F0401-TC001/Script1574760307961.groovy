@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -43,6 +44,9 @@ WebUI.delay(10)
 WebUI.closeBrowser()
 
 =======
+=======
+
+>>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -83,4 +87,4 @@ WebUI.delay(5)
 
 WebUI.closeBrowser()
 
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
+
