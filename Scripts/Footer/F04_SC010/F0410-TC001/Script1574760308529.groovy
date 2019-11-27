@@ -15,26 +15,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'แสดง หน้าจอหลัก'
+WebUI.openBrowser(GlobalVariable.G_url)
 
-"แสดง หน้าจอหลัก"
-WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
+'แสดงเมนู ในส่วนของ footer'
 WebUI.click(findTestObject('Footer/footer/widgettitle'))
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policywidgettitle, false)
+
+WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
-"คลิก icon connected via IPv4  และ แสดงหน้า  icon connected via IPv4 "
 //check icon connected via IPv6
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC010/TC001/01'),10)
+'คลิก icon connected via IPv4  และ แสดงหน้า  icon connected via IPv4 '
+WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC010/TC001/01'), 10)
+
 WebUI.click(findTestObject('Object Repository/Footer/F04_SC010/TC001/01'))
 
-
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
+
