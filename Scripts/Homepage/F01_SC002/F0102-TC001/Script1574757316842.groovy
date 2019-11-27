@@ -22,22 +22,32 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
-
-WebUI.click(findTestObject('Show Homepage/Picturebtn_prev'))
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 20)
 
 'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Page_University of Phayao/div_next'))
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Page_University of Phayao/div_next'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_prev'))
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 20)
+
+WebUI.delay(1)
 
 'ตรวจสอบว่าสามารถเปลี่ยนเป็นรูปถัดไป'
-WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Picturebtn_next'))
+WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Objects/Page_University of Phayao/div_prev'))
+
+WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Page_University of Phayao/div_prev'))
+
+WebUI.delay(1)
+
+'ตรวจสอบการแสดงผลของรูป'
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 20)
 
 WebUI.delay(3)
 

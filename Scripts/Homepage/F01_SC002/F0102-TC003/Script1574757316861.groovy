@@ -25,15 +25,15 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 20)
 
-'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'), 20)
 
-WebUI.waitForElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures 2'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 20)
 
-'ตรวจสอบการแสดงผลของรูป'
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures 2'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'), 20)
+
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'), 20)
 
 WebUI.delay(3)
 

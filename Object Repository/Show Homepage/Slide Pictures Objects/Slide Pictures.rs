@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='maxslide2']/div/div/div[3]/div/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'slide/f4.jpg']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
