@@ -17,15 +17,14 @@ import internal.GlobalVariable as GlobalVariable
 
 'แสดง หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
-
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-'แสดงเมนู ลิ้งที่เกี่ยวข้อง'
+'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
-WebUI.click(findTestObject('Footer/F04-SC001/aside'))
+WebUI.click(findTestObject('Footer/footer/widgettitle'))
 
 WebUI.delay(2)
 
