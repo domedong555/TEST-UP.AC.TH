@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 "แสดง หน้าจอหลัก"
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
@@ -25,7 +25,7 @@ WebUI.delay(2)
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
 WebUI.click(findTestObject('Footer/footer/widgettitle'))
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policywidgettitle, false)
 
 WebUI.delay(2)
 

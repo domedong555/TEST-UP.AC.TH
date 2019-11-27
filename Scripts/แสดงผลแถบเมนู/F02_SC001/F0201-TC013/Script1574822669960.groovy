@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 WebUI.delay(1)
 
@@ -24,7 +24,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu personnel 1
-WebUI.verifyTextPresent(GlobalVariable.G_personnel, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policypersonnel, false)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'))
@@ -55,7 +55,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 WebUI.delay(1)
 
@@ -63,7 +63,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu personnel 1
-WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyCulture, false)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'))

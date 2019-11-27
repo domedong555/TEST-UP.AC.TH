@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 
 
@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 WebUI.delay(1)
 // check infomation menu
-WebUI.verifyTextPresent(GlobalVariable.G_history, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyhistory, false)
 WebUI.delay(1)
 
 'แสดงหน้า ประวัติความเป็นมา'

@@ -15,16 +15,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 
 ///Check menu in manual2
-WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policypersonel, false)
 WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
 WebUI.delay(1)
 
-WebUI.verifyTextPresent(GlobalVariable.G_manual2, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policymanual2, false)
 WebUI.delay(1)
 
 WebUI.navigateToUrl('https://www.up.ac.th/th/Manual2.aspx')

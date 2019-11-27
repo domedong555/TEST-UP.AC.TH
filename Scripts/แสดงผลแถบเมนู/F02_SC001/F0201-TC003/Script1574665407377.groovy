@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 WebUI.delay(1)
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/แสดงผลแถบเม�
 WebUI.delay(1)
 
 // check Intro_welcome
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_welcome, false)
 WebUI.delay(1)
 
 'แสดงหน้าจอ สารจากอธิการบดี'

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'แสดง หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 
 WebUI.maximizeWindow()
 
@@ -25,7 +25,7 @@ WebUI.delay(2)
 
 //check widget-title menu
 'แสดงเมนู ลิ้งที่เกี่ยวข้อง'
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policywidgettitle, false)
 WebUI.click(findTestObject('Footer/F04-SC001/aside'))
 
 WebUI.delay(2)
@@ -61,7 +61,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'แสดง หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_url)
+WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
@@ -69,7 +69,7 @@ WebUI.delay(2)
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
 WebUI.click(findTestObject('Footer/footer/widgettitle'))
-WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_policywidgettitle, false)
 
 WebUI.delay(2)
 
