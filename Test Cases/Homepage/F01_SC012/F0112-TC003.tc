@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงเมนูย่อยของเมนูวิจัย</description>
+   <name>F0112-TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be3815b5-cb2a-419e-995a-5a7cde5568fe</testCaseGuid>
+</TestCaseEntity>
