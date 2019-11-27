@@ -33,13 +33,15 @@ WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
 WebUI.delay(1)
 
-WebUI.click()
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/กิจกรรม'),20)
 WebUI.delay(1)
 
+WebUI.navigateToUrl('http://www.dsa.up.ac.th/')
+WebUI.delay(5)
+
 ///check page Student_manual
-WebUI.verifyElementPresent()
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/DSA'),20)
 WebUI.delay(1)
-WebUI.verifyElementPresent()
-WebUI.delay(1)
+
 
 WebUI.closeBrowser()
