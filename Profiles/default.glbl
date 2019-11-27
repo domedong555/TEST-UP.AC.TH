@@ -3,7 +3,6 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-<<<<<<< HEAD
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
@@ -65,7 +64,9 @@
       <initValue>'กฎหมายที่เกี่ยวข้อง'</initValue>
       <name>G_Intro_Rule</name>
    </GlobalVariableEntity>
-=======
-   <defaultProfile>false</defaultProfile>
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'รางวัล'</initValue>
+      <name>G_NewsTopAwardAll</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
