@@ -69,4 +69,9 @@
       <initValue>'รางวัล'</initValue>
       <name>G_NewsTopAwardAll</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ลิงค์เกี่ยวข้อง'</initValue>
+      <name>G_widgettitle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

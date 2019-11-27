@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 WebUI.verifyTextPresent(GlobalVariable.G_NewsTopAwardAll, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC002/F0202-TC001/รางวัล'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC002/F0202-TC001 to F0202-TC003/รางวัล'))
 WebUI.delay(1)
 
 ///Check NewsTopAwardAll page
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC002/F0202-TC001/รางวัลทั้งหมด'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC002/F0202-TC001 to F0202-TC003/รางวัลทั้งหมด'), 20)
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC002/F0202-TC001/ช่องค้นหา'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC002/F0202-TC001 to F0202-TC003/ช่องค้นหา'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()
