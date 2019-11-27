@@ -16,11 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
+WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 
 ///Check menu award
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyNewsTopAwardAll, false)
+WebUI.verifyTextPresent(GlobalVariable.G_NewsTopAwardAll, false)
 WebUI.delay(1)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC002/F0202-TC001 to F0202-TC003/รางวัล'))

@@ -25,7 +25,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyAdministrator, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
 

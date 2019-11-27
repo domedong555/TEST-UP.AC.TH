@@ -25,27 +25,27 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyhistory, false)
+WebUI.verifyTextPresent(GlobalVariable.G_history, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policySymbol, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Symbol, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_welcome, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_Organizational, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Organizational, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyAdministrator, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_Authority, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_About2, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_About2, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_Strategic, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Strategic, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_etc, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_etc, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyCulture, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
 
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_Rule, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Rule, false)
 
 WebUI.delay(3)
 

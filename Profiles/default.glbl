@@ -106,11 +106,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'นโยบายการบริหารทรัพยากรบุคคล'</initValue>
-      <name>G_Intro_policy</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'คู่มือและมาตรฐาน มคอ.'</initValue>
       <name>G_manualUP</name>
    </GlobalVariableEntity>

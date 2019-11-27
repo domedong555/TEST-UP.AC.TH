@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 'แสดงหน้า หน้าจอหลัก'
-WebUI.openBrowser(GlobalVariable.G_Intro_policyurl)
+WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 WebUI.delay(1)
 
@@ -23,7 +23,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Intro_Authority
-WebUI.verifyTextPresent(GlobalVariable.G_Intro_policyIntro_Authority, false)
+WebUI.verifyTextPresent(GlobalVariable.G_Intro_Authority, false)
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC008/อำนาจและหน้าที่'))
 WebUI.delay(1)
