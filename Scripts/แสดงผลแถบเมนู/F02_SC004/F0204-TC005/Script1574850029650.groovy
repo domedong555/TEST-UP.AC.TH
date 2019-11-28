@@ -29,17 +29,19 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 WebUI.delay(1)
 
-///check menu Student_manual
-WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
+///check menu reg
+WebUI.verifyTextPresent(GlobalVariable.G_reg, false)
 WebUI.delay(1)
 
-WebUI.click()
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC005/วิชาการ'),20)
 WebUI.delay(1)
 
-///check page Student_manual
-WebUI.verifyElementPresent()
+WebUI.navigateToUrl('http://www.reg.up.ac.th/')
+WebUI.delay(5)
+
+///check page reg
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC005/reg'),20)
 WebUI.delay(1)
-WebUI.verifyElementPresent()
-WebUI.delay(1)
+
 
 WebUI.closeBrowser()
