@@ -17,33 +17,22 @@ import internal.GlobalVariable as GlobalVariable
 
 'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
-
 WebUI.maximizeWindow()
-
-WebUI.delay(1)
-///check menu collegian
-WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
-
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+///check menu alumni
+WebUI.verifyTextPresent(GlobalVariable.G_alumni, false)
 WebUI.delay(1)
 
-///check menu scholarship
-WebUI.verifyTextPresent(GlobalVariable.G_scholarship, false)
-WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/ทุนการศึกษา'))
-WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'),20)
-WebUI.delay(1)
-
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/main/v2/modules/news/news_list_category.php?ID=5')
+WebUI.navigateToUrl('http://www.dsa.up.ac.th/alumni/main/')
 WebUI.delay(5)
 
-///check page scholarship
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/ตรวจสอบหน้ากองกิจการนิสิต'),20)
+///check page alumni
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC006/F0206-TC001/ตรวจสอบหน้าศิษย์เก่า 1'),20)
 WebUI.delay(1)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC006/F0206-TC001/ตรวจสอบหน้าศิษย์เก่า 2'),20)
+WebUI.delay(1)
 
 WebUI.closeBrowser()

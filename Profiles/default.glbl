@@ -204,4 +204,14 @@
       <initValue>'ติดต่อสอบถาม'</initValue>
       <name>G_contact2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ศิษย์เก่า'</initValue>
+      <name>G_alumni</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E-SERVICE'</initValue>
+      <name>G_E_Service</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
