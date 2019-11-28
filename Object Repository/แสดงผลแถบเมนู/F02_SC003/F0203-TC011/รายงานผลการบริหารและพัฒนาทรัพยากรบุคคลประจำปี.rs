@@ -6,11 +6,15 @@
    <elementGuidId>11f92aa5-42f3-4b60-ab5a-4c84e36c57d0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'Intro_P2.aspx' and (text() = 'รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี' or . = 'รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//ul[@id='menu-main-menu']/li[4]/ul/li[6]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

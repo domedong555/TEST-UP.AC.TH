@@ -36,4 +36,5 @@ WebUI.delay(1)
 //Check personnel page
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC013/หน้า ประมวลจริยธรรม'), 20)
 WebUI.delay(1)
+
 WebUI.closeBrowser()

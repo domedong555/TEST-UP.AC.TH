@@ -18,6 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
@@ -28,29 +29,38 @@ WebUI.verifyElementClickable(findTestObject('Show Homepage/Slide Pictures Object
 
 WebUI.delay(1)
 
+'เปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
 WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot2'))
 
+'-แสดงรูปสไลด์\r\n-แสดงรูปขนาด2100*780px'
 WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'))
 
 WebUI.delay(1)
 
+'เปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
 WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot3'))
 
+'-แสดงรูปสไลด์\r\n-แสดงรูปขนาด2100*780px'
 WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'))
 
 WebUI.delay(1)
 
+'เปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
 WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot4'))
 
+'-แสดงรูปสไลด์\r\n-แสดงรูปขนาด2100*780px'
 WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'))
 
 WebUI.delay(1)
 
+'เปลี่ยนเป็นรูปที่กดตามตำแหน่งปุ่มจุด'
 WebUI.click(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/dot5'))
 
+'-แสดงรูปสไลด์\r\n-แสดงรูปขนาด2100*780px'
 WebUI.verifyElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'))
 
 WebUI.delay(3)
 
+'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

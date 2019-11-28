@@ -32,11 +32,12 @@ WebUI.click(findTestObject('Object Repository/แสดงผลแถบเม�
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
-WebUI.delay(1)
+WebUI.delay(5)
 
 ///Check  Culture page
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/แสดงผล'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()
+
 
