@@ -23,28 +23,28 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
+WebUI.click(findTestObject('Navbar/F02_SC003/F0203-TC001/บุคลากร'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC008/นโยบายการบริหารทรัพยากรบุคคล'))
+WebUI.click(findTestObject('Navbar/F02_SC003/F0203-TC008/นโยบายการบริหารทรัพยากรบุคคล'))
 
-WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC008/หน้านโยบายการบริหาร'), 'นโยบายการบริหารทรัพยากรบุคคล')
+WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC008/หน้านโยบายการบริหาร'), 'นโยบายการบริหารทรัพยากรบุคคล')
 
-WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC008/หน้านโยบายการบริหาร'))
+WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC008/หน้านโยบายการบริหาร'))
 
-WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC009/การดำเนินการตามแผน'), 'การดำเนินการตามนโยบายการบริหารทรัพยากรบุคคล')
+WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC009/การดำเนินการตามแผน'), 'การดำเนินการตามนโยบายการบริหารทรัพยากรบุคคล')
 
-WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC009/การดำเนินการตามแผน'))
+WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC009/การดำเนินการตามแผน'))
 
-WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC010/หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล'), 'หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล')
+WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC010/หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล'), 'หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล')
 
-WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC010/หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล'))
+WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC010/หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล'))
 
-WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC011/รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'), 
+WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC011/รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'), 
     'รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี')
 
-WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC011/รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'))
+WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC011/รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'))
 
 WebUI.delay(3)
 
