@@ -24,8 +24,9 @@ WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC005/F0205-TC001/คู่มือนิสิต'))
-WebUI.delay(1)
+WebUI.navigateToUrl('https://www.up.ac.th/th/Student_Manual.aspx')
+WebUI.delay(5)
+
 
 
 ///check page Student_manual
