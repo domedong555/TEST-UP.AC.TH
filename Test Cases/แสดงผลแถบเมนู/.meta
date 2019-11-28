@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Test Cases/แสดงผลแถบเมนู/.meta
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
    <description>folder</description>
@@ -6,12 +5,3 @@
    <tag></tag>
    <folderType>TESTCASE</folderType>
 </FolderEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<FolderEntity>
-   <description>folder</description>
-   <name>แสดงผลแถบเมนู</name>
-   <tag></tag>
-   <folderType>TESTCASE</folderType>
-</FolderEntity>
->>>>>>> parent of 9fd5857... Rename the folder to Navbar:Test Cases/แสดงผลแถบเมนู/.meta
