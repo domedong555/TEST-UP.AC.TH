@@ -25,38 +25,14 @@ WebUI.verifyTextPresent(GlobalVariable.G_contact, false)
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC008/F0208_TC001/contact'))
 WebUI.delay(1)
 
-'แสดงหน้าที่อยู่'
-//Check address 
-WebUI.verifyTextPresent(GlobalVariable.G_address, false)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC001/address'))
+'แสดงหน้า คำถามที่พบบ่อย'
+//Check question
+WebUI.verifyTextPresent(GlobalVariable.G_question, false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC002/question'))
 WebUI.delay(1)
 
-'แสดงหน้าแผนที่ที่มหาวิทยาลัยตั้งอยู่'
-//Check Text
-WebUI.verifyTextPresent('มหาวิทยาลัยพะเยา', false)
-WebUI.delay(2)
-
-'แสดงแผนที่ภายในมหาวิทยาลัย'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC001/map'))
-//Check Text
-WebUI.verifyTextPresent('แผนที่ผังมหาวิทยาลัยพะเยา', false)
-WebUI.delay(2)
+//Check text
+WebUI.verifyTextPresent('คำถามที่พบบ่อย', false)
+WebUI.delay(1)
 
 WebUI.closeBrowser()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
