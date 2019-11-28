@@ -17,31 +17,22 @@ import internal.GlobalVariable as GlobalVariable
 
 'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
-
 WebUI.maximizeWindow()
-
-WebUI.delay(1)
-///check menu collegian
-WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
-
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+///check menu Student_manual
+WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
 WebUI.delay(1)
 
-///check menu dsa
-WebUI.verifyTextPresent(GlobalVariable.G_dsa, false)
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC005/F0205-TC001/คู่มือนิสิต'))
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/กิจกรรม'),20)
+
+///check page Student_manual
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/')
-WebUI.delay(5)
-
-///check page dsa
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/DSA'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
 WebUI.delay(1)
-
 
 WebUI.closeBrowser()

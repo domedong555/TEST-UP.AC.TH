@@ -17,31 +17,24 @@ import internal.GlobalVariable as GlobalVariable
 
 'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
-
 WebUI.maximizeWindow()
-
-WebUI.delay(1)
-///check menu collegian
-WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
-
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+///check menu E_Service
+WebUI.verifyTextPresent(GlobalVariable.G_E_Service, false)
 WebUI.delay(1)
 
-///check menu dsa
-WebUI.verifyTextPresent(GlobalVariable.G_dsa, false)
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC007/F0207-TC001/e-Service'),20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/กิจกรรม'),20)
-WebUI.delay(1)
-
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/')
+WebUI.navigateToUrl('https://services.up.ac.th/')
 WebUI.delay(5)
 
-///check page dsa
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/DSA'),20)
+///check page E_Service
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC007/F0207-TC001/ตรวจสอบหน้า e-Service'),20)
 WebUI.delay(1)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC007/F0207-TC001/ตรวจสอบเมนูหน้า e-Service'),20)
+WebUI.delay(1)
 
 WebUI.closeBrowser()
