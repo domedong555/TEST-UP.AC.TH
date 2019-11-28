@@ -51,6 +51,5 @@ WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects
 
 WebUI.delay(3)
 
-'ปิดหน้าเว็บ'
 WebUI.closeBrowser()
 

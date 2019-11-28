@@ -17,19 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
 WebUI.click(findTestObject('Navbar/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
-=======
-'แสดงแถบเมนู\r\n-ประวัติความเป็นมา\r\n-สัญลักษณ์ของมหาวิทยาลัย\r\n-สารจากอธิการบดี\r\n-โครงสร้างองค์กร\r\n-ผู้บริหารมหาวิทยาลัยพะเยา\r\n-อำนาจหน้าที่\r\n-ปรัชญา / ปณิธาน / พันธกิจ / วิสัยทัศน์\r\n-แผนยุทธศาสตร์\r\n-แผน/มาตรการต่างๆ\r\n-วัฒนธรรมองค์กร\r\n-กฎหมายที่เกี่ยวข้อง'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 
 WebUI.verifyTextPresent(GlobalVariable.G_history, false)
 

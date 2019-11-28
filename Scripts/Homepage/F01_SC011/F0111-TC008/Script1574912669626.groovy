@@ -17,19 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
 WebUI.click(findTestObject('Navbar/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
-=======
-'แสดงแถบเมนูู\r\n-กองบริการการศึกษา\r\n-กองกิจการนิสิต'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 
 WebUI.delay(1)
 
