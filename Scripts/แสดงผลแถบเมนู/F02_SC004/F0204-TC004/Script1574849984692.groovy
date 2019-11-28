@@ -29,17 +29,19 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 WebUI.delay(1)
 
-///check menu Student_manual
-WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
+///check menu mail_student
+WebUI.verifyTextPresent(GlobalVariable.G_mail_student, false)
 WebUI.delay(1)
 
-WebUI.click()
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC004/อีเมล์สำหรับนิสิต'),20)
 WebUI.delay(1)
 
-///check page Student_manual
-WebUI.verifyElementPresent()
+WebUI.navigateToUrl('https://login.microsoftonline.com/')
+WebUI.delay(5)
+
+///check page mail_student
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC004/mail'),20)   
 WebUI.delay(1)
-WebUI.verifyElementPresent()
-WebUI.delay(1)
+
 
 WebUI.closeBrowser()
