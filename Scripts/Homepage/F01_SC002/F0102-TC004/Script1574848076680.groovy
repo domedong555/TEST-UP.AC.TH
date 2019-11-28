@@ -22,6 +22,7 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
+'รูปภาพไปตามเม้าส์ที่ลากไปซ้ายหรือขวา'
 WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 20)

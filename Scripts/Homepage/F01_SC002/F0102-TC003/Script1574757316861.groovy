@@ -23,6 +23,7 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
+'รูปภาพมีการเปลี่ยนโดยสไลด์ไปขางขวา'
 WebUI.delay(3)
 
 WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 20)

@@ -22,41 +22,34 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
+'ตวรจสอบการแสดงเรื่องเด่น\r\n-รูปเกี่ยวกับเรื่องเด่นจำนวน 3 รูป\r\n-#ด้านต่างๆที่แสดง\r\n--มีหัวข้อใต้ภาพ\r\n-วันที่\r\n-จำนวนผู้เข้าชม\r\n-ปุุ่มเรื่องเด่นทั้งหมด'
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img1'), 
-    20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img1'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title1'), 
-    20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title1'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Detail1'), 
-    20)
-
-WebUI.delay(3)
-
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img2'), 
-    20)
-
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title2'), 
-    20)
-
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Deatail3'), 
-    20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Detail1'), 20)
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title3'), 
-    20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img2'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img3'), 
-    20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title2'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Deatail3'), 
-    20)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Deatail3'), 20)
 
 WebUI.delay(3)
 
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/title3'), 20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/img3'), 20)
+
+WebUI.verifyElementPresent(findTestObject('Show Homepage/GoodNews/Deatail3'), 20)
+
+WebUI.delay(3)
+
+'แสดงหน้าเรื่ื่องเด่นและเนื้อหา'
 WebUI.verifyElementClickable(findTestObject('Show Homepage/GoodNews/allgoodnews'))
 
 WebUI.delay(3)
