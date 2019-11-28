@@ -26,6 +26,7 @@ WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 20)
 
+'รูปภาพไปตามเม้าส์ที่ลากไปซ้ายหรือขวา'
 WebUI.dragAndDropByOffset(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 200, 200)
 
 WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'), 20)
