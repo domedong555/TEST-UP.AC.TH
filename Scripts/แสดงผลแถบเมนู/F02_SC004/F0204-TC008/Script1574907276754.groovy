@@ -28,20 +28,3 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 WebUI.delay(1)
-
-///check menu dsa
-WebUI.verifyTextPresent(GlobalVariable.G_dsa, false)
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/กิจกรรม'),20)
-WebUI.delay(1)
-
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/')
-WebUI.delay(5)
-
-///check page dsa
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC006/DSA'),20)
-WebUI.delay(1)
-
-
-WebUI.closeBrowser()
