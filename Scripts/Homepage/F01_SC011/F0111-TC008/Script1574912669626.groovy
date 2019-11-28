@@ -17,35 +17,29 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Navbar/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
-=======
-'แสดงแถบเมนูู\r\n-กองบริการการศึกษา\r\n-กองกิจการนิสิต'
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/ทุนการศึกษา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/ทุนการศึกษา'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 'กองกิจการนิสิต')
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 'กองกิจการนิสิต')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 'กองบริการการศึกษา')
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 'กองบริการการศึกษา')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'))
 
 WebUI.delay(3)
 

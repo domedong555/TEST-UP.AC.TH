@@ -17,29 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Navbar/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
-=======
-'แสดงแถบเมนูู\r\n-ประวัติอธิการบดี\r\n-กรรมการสภามหาวิทยาลัย\r\n-ผู้บริหาร'
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 
 WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 
-WebUI.click(findTestObject('Navbar/F02_SC001/F0201-TC005/ผู้บริหารมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ผู้บริหารมหาวิทยาลัยพะเยา'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC001/F0201-TC005/ประวัติอธิการบดี'), 0)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประวัติอธิการบดี'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC001/F0201-TC006/กรรมการสภามหาวิทยาลัย'), 0)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC006/กรรมการสภามหาวิทยาลัย'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC001/F0201-TC007/ผู้บริหาร'), 0)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC007/ผู้บริหาร'), 0)
 
 WebUI.delay(3)
 

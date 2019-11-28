@@ -17,27 +17,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('Navbar/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
-=======
-'แสดงแถบเมนู\r\n-วัฒนธรรมองค์กร\r\n-ประมวลจริยธรรม และคุณธรรมของบุคลากร'
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
->>>>>>> branch 'master' of https://github.com/domedong555/TEST-UP.AC.TH.git
 
 WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 
-WebUI.click(findTestObject('Navbar/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'), 0)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC001/F0201-TC013/ประมวลจริยธรรม และคุณธรรมของบุคลากร'), 0)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC013/ประมวลจริยธรรม และคุณธรรมของบุคลากร'), 0)
 
 WebUI.delay(3)
 
