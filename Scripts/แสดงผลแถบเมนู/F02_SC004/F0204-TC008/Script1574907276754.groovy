@@ -28,3 +28,22 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 WebUI.delay(1)
+
+///check menu scholarship
+WebUI.verifyTextPresent(GlobalVariable.G_scholarship, false)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/ทุนการศึกษา'))
+WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'),20)
+WebUI.delay(1)
+
+WebUI.navigateToUrl('https://www.does.up.ac.th/')
+WebUI.delay(5)
+
+///check page scholarship
+WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/ตรวจสอบหน้ากองบริการการศึกษา'),20)
+WebUI.delay(1)
+
+
+WebUI.closeBrowser()
