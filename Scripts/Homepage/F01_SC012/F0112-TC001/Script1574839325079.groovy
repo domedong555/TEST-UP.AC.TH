@@ -17,12 +17,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
+'แสดงแถบเมนู\r\n-หลักสูตรปริญญา\r\n-ผู้สนใจเข้าศึกษา\r\n-หลักสูตรที่เปิดสอน\r\n-สำหรับครูแนะแนว\r\n-หลักสูตรอบรม'
 WebUI.click(findTestObject('Show Homepage/Admission Objects/admission'))
 
 WebUI.verifyElementText(findTestObject('Show Homepage/Admission Objects/degree'), 'หลักสูตรปริญญา')
