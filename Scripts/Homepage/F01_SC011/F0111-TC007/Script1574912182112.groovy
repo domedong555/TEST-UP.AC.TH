@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navbar/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_student, false)
 

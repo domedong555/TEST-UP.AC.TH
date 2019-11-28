@@ -23,23 +23,23 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navbar/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/ทุนการศึกษา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/ทุนการศึกษา'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 'กองกิจการนิสิต')
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'), 'กองกิจการนิสิต')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองกิจการนิสิต'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 'กองบริการการศึกษา')
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'), 'กองบริการการศึกษา')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC007 and F0204-TC008/กองบริการการศึกษา'))
 
 WebUI.delay(3)
 

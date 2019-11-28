@@ -23,31 +23,31 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Navbar/F02_SC003/F0203-TC001/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'), 
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'), 
     20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'), 
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'), 
     'ข้อมูลเชิงสถิติการให้บริการ')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'), 20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'), 'รายงานผลสำรวจความพึงพอใจการให้บริการ')
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'), 'รายงานผลสำรวจความพึงพอใจการให้บริการ')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/รายงานความพึงพอใจ'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/คู่มือด้านผลิตบัณฑิต'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/คู่มือด้านผลิตบัณฑิต'), 20)
 
-WebUI.verifyElementText(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/คู่มือด้านผลิตบัณฑิต'), 'คู่มือด้านผลิตบัณฑิต')
+WebUI.verifyElementText(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/คู่มือด้านผลิตบัณฑิต'), 'คู่มือด้านผลิตบัณฑิต')
 
-WebUI.verifyElementClickable(findTestObject('Navbar/F02_SC003/F0203-TC005 to F0203-TC007/คู่มือด้านผลิตบัณฑิต'))
+WebUI.verifyElementClickable(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/คู่มือด้านผลิตบัณฑิต'))
 
 WebUI.delay(3)
 

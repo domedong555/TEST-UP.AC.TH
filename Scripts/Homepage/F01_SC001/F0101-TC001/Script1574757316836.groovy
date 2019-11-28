@@ -24,9 +24,9 @@ WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Navbar/F02_SC001/F0201-TC001/เกี่ยวกับเรา'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'), 20)
 
-WebUI.click(findTestObject('Navbar/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'))
 
 WebUI.delay(3)
 
