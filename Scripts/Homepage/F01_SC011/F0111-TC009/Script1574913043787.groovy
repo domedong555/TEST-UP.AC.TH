@@ -17,12 +17,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+'แสดงหน้า "หน้าจอหลัก"'
 WebUI.navigateToUrl('https://www.up.ac.th/th/')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
+'แสดงแถบเมนู\r\n-ที่อยู่\r\n-คำถามที่พบบ่อย\r\n-เบอร์โทรภายใน\r\n-ช่องทางแจ้งเรื่องร้องเรียนการทุจริต\r\n-ข้อเสนอแนะเพื่อการพัฒนา\r\n-ชมเชย\r\n-ติดต่อสอบถาม'
 WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
 
 WebUI.delay(1)
