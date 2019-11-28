@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>5</name>
+   <name>ตรวจสอบหน้า e-Service</name>
    <tag></tag>
-   <elementGuidId>6ca404c2-3df3-42b8-92a5-16add3f5037b</elementGuidId>
+   <elementGuidId>fdec6c05-fe74-4b81-aa32-dbaa267e84d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='เข้าสู่ระบบ'])[1]/following::div[3]</value>
+         <value>//div[@id='content']/nav/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>col-lg-12</value>
+      <value>container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,41 +32,52 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                 ข่าวทุนการศึกษา
-                
-                    Home
-                    
-                    ข่าวทุนการศึกษา
+        
+        
+            
+            UP Services
+        
 
+        
+        
+
+            
+            
                 
-            </value>
+                
+            
+
+            
+
+            
+                
+                    
+                        
+                        เข้าสู่ระบบ
+                    
+                
+        
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]</value>
+      <value>id(&quot;content&quot;)/nav[@class=&quot;navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow&quot;]/div[@class=&quot;container&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='เข้าสู่ระบบ'])[1]/following::div[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ฐานข้อมูลหอพักเอกชน'])[1]/following::div[3]</value>
+      <value>//div[@id='content']/nav/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//body/div/div/div</value>
+      <value>//nav/div</value>
    </webElementXpaths>
 </WebElementEntity>
