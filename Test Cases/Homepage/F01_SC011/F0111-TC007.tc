@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการแสดงเมนูย่อยของเมนู นิสิตปัจจุบัน</description>
+   <name>F0111-TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4a57a34-afa1-44f5-8b7d-0d1d9d16a908</testCaseGuid>
+</TestCaseEntity>
