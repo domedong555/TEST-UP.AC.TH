@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='id-to-scroll']/div/div[2]/div/div/div/div/small</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' :: UP-Space สำนักงานสถาบันนวัตกรรมและถ่ายทอดเทคโนโลยี ชั้น G อาคาร 99 ปี พระอุบาลีคุณูปมาจารย์ (ปวง ธมฺมปญฺโญ)' or . = ' :: UP-Space สำนักงานสถาบันนวัตกรรมและถ่ายทอดเทคโนโลยี ชั้น G อาคาร 99 ปี พระอุบาลีคุณูปมาจารย์ (ปวง ธมฺมปญฺโญ)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
