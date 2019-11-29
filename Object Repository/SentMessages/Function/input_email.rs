@@ -3,7 +3,7 @@
    <description></description>
    <name>input_email</name>
    <tag></tag>
-   <elementGuidId>0e2febe9-c9b9-4b8b-8a13-33bb8a197402</elementGuidId>
+   <elementGuidId>4022b2f1-8413-420a-90c8-d60a8baba6a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

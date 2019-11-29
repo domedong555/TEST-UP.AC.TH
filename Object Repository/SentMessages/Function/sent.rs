@@ -3,7 +3,7 @@
    <description></description>
    <name>sent</name>
    <tag></tag>
-   <elementGuidId>528b835f-d3fa-4d7d-a585-325650f90987</elementGuidId>
+   <elementGuidId>aa74f202-2ab5-4cc6-b641-a648aed89369</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

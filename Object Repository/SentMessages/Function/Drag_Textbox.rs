@@ -3,7 +3,7 @@
    <description></description>
    <name>Drag_Textbox</name>
    <tag></tag>
-   <elementGuidId>4151b487-041d-475b-ab94-73f336c2f88b</elementGuidId>
+   <elementGuidId>8b0e0791-8fbb-4417-b23c-bc0e0fbd8a72</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

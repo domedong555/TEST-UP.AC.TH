@@ -3,7 +3,7 @@
    <description></description>
    <name>input_textarea</name>
    <tag></tag>
-   <elementGuidId>ed541ce6-9a42-4f6c-8dc1-6db184a8e821</elementGuidId>
+   <elementGuidId>bda71ee8-ff64-40a4-a5ae-a8cfe9a0bfee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
