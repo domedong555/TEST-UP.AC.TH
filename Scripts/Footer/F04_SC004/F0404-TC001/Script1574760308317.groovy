@@ -23,17 +23,20 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก Instagram และ แสดงหน้า Instagram "
 //check Instagram
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC004/TC001/IG'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC004/TC001/IG'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/10IG'),10)
+WebUI.click(findTestObject('Footer/Related links/10IG'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+//Check text
+WebUI.verifyTextPresent('university_of_phayao', false)
 
 WebUI.closeBrowser()

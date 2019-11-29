@@ -24,18 +24,24 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 'คลิก สมาคมอธิการบดีแห่งประเทศไทย และ แสดงหน้า สมาคมอธิการบดีแห่งประเทศไทย'
 //Check Association of Chancellors of Thailand
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04-SC002/TC001/01'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04-SC002/TC001/01'))
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/01chancellor'),10)
+WebUI.click(findTestObject('Footer/Other links/01chancellor'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+'เปลี่ยน tab'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+//Check text
+WebUI.verifyTextPresent('สมาคมที่ประชุมอธิการบดีแห่งประเทศไทย', false)
 
 
 WebUI.closeBrowser()

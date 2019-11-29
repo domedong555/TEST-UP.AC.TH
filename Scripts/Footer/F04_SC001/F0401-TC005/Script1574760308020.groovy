@@ -23,16 +23,22 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก  ระบบวาระการประชุมอิเล็กทรอนิกส์ และ แสดงหน้า ระบบวาระการประชุมอิเล็กทรอนิกส์ "
 //Check Electronic agenda system
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC001/TC005/05'),10)
-WebUI.click(findTestObject('Footer/F04-SC001/TC005/05'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/05Electricagendasystem'),10)
+WebUI.click(findTestObject('Footer/Related links/05Electricagendasystem'))
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+'เปลี่ยน tab'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+//Check text
+WebUI.verifyTextPresent('UP-Meeting', false)
 
 WebUI.closeBrowser()

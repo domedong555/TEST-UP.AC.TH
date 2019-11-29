@@ -23,17 +23,24 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 'คลิก วารสารมหาวิทยาลัยพะเยา และ แสดงหน้า วารสารมหาวิทยาลัยพะเยา '
 //Check Decision support system for managers
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC001/TC003/03'), 10)
-WebUI.click(findTestObject('Footer/F04-SC001/TC003/03'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/03Journal'), 10)
+WebUI.click(findTestObject('Footer/Related links/03Journal'))
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+'เปลี่ยน tab'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+//Check Element
+WebUI.verifyElementPresent(findTestObject('Footer/Journal/01journal nu'), 10)
+WebUI.verifyElementPresent(findTestObject('Footer/Journal/02journal up'), 10)
 
 WebUI.closeBrowser()
 

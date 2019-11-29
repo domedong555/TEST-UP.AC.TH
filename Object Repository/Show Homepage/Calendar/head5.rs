@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='id-to-scroll']/div/div[2]/div/div/div/p/a[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'ขอเชิญ คณาจารย์ นักวิทยาศาสตร์ นักวิจัย บุคลากรในมหาวิทยาลัย และผู้ที่สนใจ เข้าร่วมการสัมมนาการประยุกต์ใช้เครื่องมือขั้นสูงที่เหมาะสมในการวิเคราะห์ธาตุต่าง ๆ' and @href = 'NewsRead.aspx?itemID=20039' and (text() = ' ขอเชิญ คณาจารย์ นักวิทยาศาสตร์ นักวิจัย บุคลากรในมหาวิทยาลัย และผู้ที่สนใจ เข้าร่วมการสัมมนาการประยุกต์ใช้เครื่องมือขั้นสูงที่เหมาะสมในการวิเคราะห์ธาตุต่าง ๆ' or . = ' ขอเชิญ คณาจารย์ นักวิทยาศาสตร์ นักวิจัย บุคลากรในมหาวิทยาลัย และผู้ที่สนใจ เข้าร่วมการสัมมนาการประยุกต์ใช้เครื่องมือขั้นสูงที่เหมาะสมในการวิเคราะห์ธาตุต่าง ๆ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

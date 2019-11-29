@@ -23,17 +23,20 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก รูปมหาวิทยาลัยพะเยา  และ แสดงหน้า หน้าจอหลัก   "
 //check home icon
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC008/TC001/home'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC008/TC001/home'))
+WebUI.verifyElementPresent(findTestObject('Footer/01home'),10)
+WebUI.click(findTestObject('Footer/01home'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+//Check Element
+WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/01home'), 10)
 
 WebUI.closeBrowser()
