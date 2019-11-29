@@ -21,32 +21,32 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Organizational/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Intro_Strategic
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_Strategic, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์'))
 WebUI.delay(1)
 
 ///Check Show Intro_Strategic page
 WebUI.verifyTextPresent("เกี่ยวกับเรา > แผนยุทธศาสตร์", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์ 2555-2559'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์ 2555-2559'))
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์ 2555-2559'), 20)
-WebUI.delay(1)
-
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์ 2559-2561'))
-WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์ 2559-2561'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์ 2555-2559'), 20)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์ 2562'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์ 2559-2561'))
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC010/แผนยุทธศาสตร์ 2562'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์ 2559-2561'), 20)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์ 2562'))
+WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Strategic/แผนยุทธศาสตร์ 2562'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

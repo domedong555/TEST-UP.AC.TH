@@ -26,20 +26,20 @@ WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Intro_student/นิสิตปัจจุบัน'))
 WebUI.delay(1)
 
 ///check menu Fidelity
 WebUI.verifyTextPresent(GlobalVariable.G_Fidelity, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC003/คู่มือหรือมาตรฐานการให้บริการ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Fidelity/คู่มือหรือมาตรฐานการให้บริการ'))
 WebUI.delay(1)
 
 ///check page Fidelity
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC003/มาตรฐานและขั้นตอนการให้บริการ (นิสิต)'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Fidelity/มาตรฐานและขั้นตอนการให้บริการ (นิสิต)'),20)
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC003/ตรวจสอบเอกสาร'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Fidelity/ตรวจสอบเอกสาร'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

@@ -26,22 +26,43 @@ WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Intro_student/นิสิตปัจจุบัน'))
 WebUI.delay(1)
 
 ///check menu mail_student
 WebUI.verifyTextPresent(GlobalVariable.G_mail_student, false)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC004/อีเมล์สำหรับนิสิต'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/mail_student/อีเมล์สำหรับนิสิต'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('https://login.microsoftonline.com/')
-WebUI.delay(5)
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/mail_student/อีเมล์สำหรับนิสิต'))
+WebUI.delay(2)
+
+
+'Switch to Documentation window'
+WebUI.switchToWindowIndex(1)
 
 ///check page mail_student
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC004/mail'),20)   
-WebUI.delay(1)
 
-
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Sign'),20) == true){
+   WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Sign'))
+   WebUI.delay(2)
+   WebUI.setText(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Sign'),'61021459@up.ac.th')
+   WebUI.delay(2)
+   WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Next to Password'))
+   WebUI.delay(2)
+   WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Password'))
+   WebUI.setText(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Password'),'@Tt0638256132')
+   WebUI.delay(2)
+   WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Go to mail page'))
+   WebUI.delay(2)
+   WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/mail_student/Stay signed in'))
+   WebUI.delay(2)
+   WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/check offer'),20)
+   WebUI.delay(2)
+   }else{
+   WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/check offer'),20)}
+   WebUI.delay(2)
+   
 WebUI.closeBrowser()

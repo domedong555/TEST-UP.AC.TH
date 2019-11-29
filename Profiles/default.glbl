@@ -214,4 +214,9 @@
       <initValue>'E-SERVICE'</initValue>
       <name>G_E_Service</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'เกี่ยวกับเรา'</initValue>
+      <name>G_about1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

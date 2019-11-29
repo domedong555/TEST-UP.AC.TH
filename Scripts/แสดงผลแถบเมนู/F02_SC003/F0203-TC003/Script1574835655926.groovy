@@ -25,7 +25,7 @@ WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 
 WebUI.delay(1)
 
@@ -38,12 +38,12 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/Manual.aspx')
 WebUI.delay(1)
 
 ///check manual page
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC003/แสดงคู่มือและมาตรฐานการปฏิบัติงาน'), 
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/manual/แสดงคู่มือและมาตรฐานการปฏิบัติงาน'), 
     20)
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC003/แสดงกองต่างๆ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/manual/แสดงกองต่างๆ'), 20)
 
 WebUI.delay(1)
 

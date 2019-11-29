@@ -23,17 +23,23 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก twitter  และ แสดงหน้า twitter  "
 //check twitter
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC009/TC001/twitter'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC009/TC001/twitter'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/13twitter'),10)
+WebUI.click(findTestObject('Footer/Related links/13twitter'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+'เปลี่ยน Tab'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+//Check Text
+WebUI.verifyTextPresent('มหาวิทยาลัยพะเยา', false)
 
 WebUI.closeBrowser()

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 'แสดงหน้า "หน้าจอหลัก"'
-WebUI.navigateToUrl('https://www.up.ac.th/th/')
+WebUI.navigateToUrl(GlobalVariable.G_url)
 
 WebUI.maximizeWindow()
 

@@ -23,17 +23,20 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก icon IPv6  และ แสดงหน้า  icon IPv6 "
 //check icon IPv6
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC010/TC002/02'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC010/TC002/02'))
+WebUI.verifyElementPresent(findTestObject('Footer/03IPv6'),10)
+WebUI.click(findTestObject('Footer/03IPv6'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+//Check Text
+WebUI.verifyTextPresent('IPv6 validation', false)
 
 WebUI.closeBrowser()

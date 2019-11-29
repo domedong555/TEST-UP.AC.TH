@@ -26,21 +26,26 @@ WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Intro_student/นิสิตปัจจุบัน'))
 WebUI.delay(1)
 
 ///check menu reg
 WebUI.verifyTextPresent(GlobalVariable.G_reg, false)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC005/วิชาการ'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/reg/วิชาการ'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('http://www.reg.up.ac.th/')
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/reg/วิชาการ'))
 WebUI.delay(5)
 
+'Switch to window'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+
 ///check page reg
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC005/reg'),20)
+
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/reg/reg'),20)
 WebUI.delay(1)
 
 

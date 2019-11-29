@@ -30,10 +30,10 @@ WebUI.delay(5)
 
 
 ///check page Student_manual
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

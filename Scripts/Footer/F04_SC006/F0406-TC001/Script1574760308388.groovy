@@ -23,17 +23,20 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก Line และ แสดงหน้า Line "
 //check Line
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC006/TC001/Line'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC006/TC001/Line'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/12Line'),10)
+WebUI.click(findTestObject('Footer/Related links/12Line'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+//Check text
+WebUI.verifyTextPresent('LINE', false)
 
 WebUI.closeBrowser()
