@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/personal_intro/บุคลากร'))
 WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_personal_intro, false)
 WebUI.delay(1)

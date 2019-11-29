@@ -26,13 +26,13 @@ WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 WebUI.delay(1)
 
 ///check menu finance
 WebUI.verifyTextPresent(GlobalVariable.G_finance, false)
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC014/การเงิน'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/finance/การเงิน'),20)
 WebUI.delay(1)
 
 WebUI.navigateToUrl('http://www.finance.up.ac.th/Main/')
@@ -40,7 +40,7 @@ WebUI.delay(3)
 
 
 ///check finance page
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC014/ตรวจสอบหน้าการเงิน'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/finance/ตรวจสอบหน้าการเงิน'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

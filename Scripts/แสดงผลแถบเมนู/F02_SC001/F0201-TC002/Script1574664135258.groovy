@@ -22,57 +22,57 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 ///Check about menu
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC001/เกี่ยวกับเรา'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/History/เกี่ยวกับเรา'), 20)
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///check symbol menu
 WebUI.verifyTextPresent(GlobalVariable.G_Symbol, false)
 WebUI.delay(1)
 
 'แสดงหน้า ประวัติความเป็นมา'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/สัญลักษณ์ของมหาวิทยาลัย'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/สัญลักษณ์ของมหาวิทยาลัย'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("สัญลักษณ์ของมหาวิทยาลัย", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/พระพุทธภุชคารักษ์'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/พระพุทธภุชคารักษ์'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("พระพุทธภุชคารักษ์", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/สมเด็จพระนเรศวรมหาราช'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/สมเด็จพระนเรศวรมหาราช'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("สมเด็จพระนเรศวรมหาราช", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/สัญลักษณ์ประจำมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/สัญลักษณ์ประจำมหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("สัญลักษณ์ประจำมหาวิทยาลัยพะเยา", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/สีประจำมหาวิทยาลัย'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/สีประจำมหาวิทยาลัย'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("สีประจำมหาวิทยาลัย", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/เพลงประจำมหาวิทยาลัย'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/เพลงประจำมหาวิทยาลัย'))
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/ต้นไม้ประจำมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/ต้นไม้ประจำมหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("ต้นไม้ประจำมหาวิทยาลัยพะเยา", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC002/ชุดครุยแห่งความภูมิใจ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Symbol/ชุดครุยแห่งความภูมิใจ'))
 WebUI.delay(1)
 ///check text
 WebUI.verifyTextPresent("ชุดครุยแห่งความภูมิใจ", false)

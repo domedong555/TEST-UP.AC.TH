@@ -18,14 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 'แสดงหน้า "หน้าจอหลัก"'
-WebUI.navigateToUrl('https://www.up.ac.th/th/')
+WebUI.navigateToUrl(GlobalVariable.G_url)
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
 'แสดงแถบเมนู\r\n-แนะนำการใช้งาน\r\n-อีเมล์สำหรับบุคลากร\r\n-คู่มือและมาตรฐานการปฏิบัติงาน\r\n-คู่มือการให้บริการ\r\n-การให้บริการ\r\n-นโยบายการบริหารทรัพยากรบุคคล\r\n-คู่มือและมาตรฐาน มคอ.\r\n-สวัสดิการ\r\n-การเงิน'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC001/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/personal_intro/บุคลากร'))
 
 WebUI.verifyTextPresent(GlobalVariable.G_personal_intro, false)
 

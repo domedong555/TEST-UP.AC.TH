@@ -22,20 +22,20 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Organizational/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Culture
 WebUI.verifyTextPresent(GlobalVariable.G_Culture, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร tab'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Culture/วัฒนธรรมองค์กร tab'))
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC012/วัฒนธรรมองค์กร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Culture/วัฒนธรรมองค์กร'))
 WebUI.delay(5)
 
 ///Check  Culture page
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC012/แสดงผล'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Culture/แสดงผล'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

@@ -22,25 +22,25 @@ WebUI.maximizeWindow()
 ///Check menu  personel
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 WebUI.delay(1)
 ///check menu service
 WebUI.verifyTextPresent(GlobalVariable.G_service, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 WebUI.delay(1)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/service/การให้บริการ'))
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/การให้บริการ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/service/การให้บริการ'), 20)
 WebUI.delay(1)
 ///
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/service/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'),20)
 WebUI.delay(1)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/service/ข้อมูลเชิงสถิติการให้บริการตามภารกิจของมหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
 ///check service page
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC003/F0203-TC005 to F0203-TC007/แสดงผลหน้า ข้อมูลเชิงสถิติการให้บริการ'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/service/แสดงผลหน้า ข้อมูลเชิงสถิติการให้บริการ'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

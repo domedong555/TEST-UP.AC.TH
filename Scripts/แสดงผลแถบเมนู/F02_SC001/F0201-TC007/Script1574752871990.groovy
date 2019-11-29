@@ -20,26 +20,26 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Organizational/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Administrator
 WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ผู้บริหารมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ผู้บริหารมหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
 ///Check menu Board
 WebUI.verifyTextPresent("ผู้บริหาร", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC007/ผู้บริหาร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ผู้บริหาร'))
 WebUI.delay(1)
 ///Check show Board page
 WebUI.verifyTextPresent("เกี่ยวกับ มพ. > ผู้บริหารมหาวิทยาลัยพะเยา > ผู้บริหาร", false)
 WebUI.delay(1)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC007/อธิการบดีมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/อธิการบดีมหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC007/คณะผู้บริหาร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/คณะผู้บริหาร'))
 WebUI.delay(1)
 
 WebUI.closeBrowser()

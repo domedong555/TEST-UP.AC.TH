@@ -22,13 +22,13 @@ WebUI.maximizeWindow()
 'แสดงเมนูติดต่อเรา'
 //Check contact menu
 WebUI.verifyTextPresent(GlobalVariable.G_contact, false)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC008/F0208_TC001/contact'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/contact/address/contact'))
 WebUI.delay(1)
 
 'แสดงหน้า คำถามที่พบบ่อย'
 //Check question
 WebUI.verifyTextPresent(GlobalVariable.G_question, false)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC002/question'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/contact/question/question'))
 WebUI.delay(1)
 
 //Check text

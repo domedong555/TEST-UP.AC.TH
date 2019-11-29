@@ -24,15 +24,16 @@ WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC005/F0205-TC001/คู่มือนิสิต'))
-WebUI.delay(1)
+WebUI.navigateToUrl('https://www.up.ac.th/th/Student_Manual.aspx')
+WebUI.delay(5)
+
 
 
 ///check page Student_manual
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

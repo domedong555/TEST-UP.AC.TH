@@ -29,10 +29,10 @@ WebUI.navigateToUrl('http://www.dsa.up.ac.th/alumni/main/')
 WebUI.delay(5)
 
 ///check page alumni
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC006/F0206-TC001/ตรวจสอบหน้าศิษย์เก่า 1'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/alumni/ตรวจสอบหน้าศิษย์เก่า 1'),20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC006/F0206-TC001/ตรวจสอบหน้าศิษย์เก่า 2'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/alumni/ตรวจสอบหน้าศิษย์เก่า 2'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

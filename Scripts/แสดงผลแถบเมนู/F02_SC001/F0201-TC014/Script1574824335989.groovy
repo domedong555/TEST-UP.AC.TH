@@ -21,20 +21,20 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Organizational/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Intro_Rule
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_Rule, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC014/กฎหมายที่เกี่ยวข้อง'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Rule/กฎหมายที่เกี่ยวข้อง'))
 WebUI.delay(1)
 
 ///Check page
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC014/หน้ากฎหมายที่เกี่ยวข้อง'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Rule/หน้ากฎหมายที่เกี่ยวข้อง'), 20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC014/check'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Rule/check'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

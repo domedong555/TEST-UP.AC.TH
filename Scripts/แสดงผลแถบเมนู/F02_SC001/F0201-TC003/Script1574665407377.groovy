@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/introwelcome/เกี่ยวกับเรา'))
 
 WebUI.delay(1)
 
@@ -34,34 +34,34 @@ WebUI.verifyTextPresent(GlobalVariable.G_Intro_welcome, false)
 WebUI.delay(1)
 
 'แสดงหน้าจอ สารจากอธิการบดี'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC003/สารจากท่านอธิการบดี'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/introwelcome/สารจากท่านอธิการบดี'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/เจตจำนง'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/introwelcome/เจตจำนง'))
 
 WebUI.delay(2)
 
 ///check video present
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/video'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/introwelcome/video'), 20)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาไทย'))
-
-WebUI.delay(2)
-
-///check thai language document
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาไทย'), 20)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาอังกฤษ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/introwelcome/ภาษาไทย'))
 
 WebUI.delay(2)
 
 ///check thai language document
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC003/ภาษาอังกฤษ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/introwelcome/ภาษาไทย'), 20)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/introwelcome/ภาษาอังกฤษ'))
+
+WebUI.delay(2)
+
+///check thai language document
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/introwelcome/ภาษาอังกฤษ'), 20)
 
 WebUI.delay(2)
 
