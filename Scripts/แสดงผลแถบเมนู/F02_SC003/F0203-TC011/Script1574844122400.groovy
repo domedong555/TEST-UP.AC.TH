@@ -22,19 +22,19 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 WebUI.delay(1)
 ///check menu policy
 WebUI.verifyTextPresent(GlobalVariable.G_policy, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC008/นโยบายการบริหารทรัพยากรบุคคล'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/policy/นโยบายการบริหารทรัพยากรบุคคล'))
 WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC011/รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/policy/รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'))
 WebUI.delay(1)
 
 ///Check policy page
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC011/ตรวจสอบรายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/policy/ตรวจสอบรายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี'),20)
 WebUI.delay(1)
 WebUI.closeBrowser()

@@ -20,7 +20,7 @@ WebUI.maximizeWindow()
 
 
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 WebUI.delay(1)
 ///Check menu in manual2
 
@@ -31,9 +31,9 @@ WebUI.navigateToUrl('https://www.up.ac.th/th/Manual2.aspx')
 WebUI.delay(1)
 
 ///check manual2 page
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC004/บุคลากร-คู่มือการให้บริการ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/manual2/บุคลากร-คู่มือการให้บริการ'), 20)
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC004/คู่มือการให้บริการ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/manual2/คู่มือการให้บริการ'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

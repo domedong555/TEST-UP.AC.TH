@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 WebUI.delay(3)
 
 'แสดงแถบเมนู\r\n-แนะนำน้อง "นิสิตปัจจุบัน"\r\n-คู่มือนิสิต\r\n-คู่มือหรือมาตรฐานการให้บริการ\r\n-อีเมล์สำหรับนิสิต\r\n-วิชาการ\r\n-กิจกรรม\r\n-ทุนการศึกษา'
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Intro_student/นิสิตปัจจุบัน'))
 
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_student, false)
 

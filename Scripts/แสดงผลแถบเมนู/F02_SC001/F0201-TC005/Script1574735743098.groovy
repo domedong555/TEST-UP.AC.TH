@@ -21,58 +21,58 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Organizational/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Administrator
 WebUI.verifyTextPresent(GlobalVariable.G_Administrator, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ผู้บริหารมหาวิทยาลัยพะเยา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ผู้บริหารมหาวิทยาลัยพะเยา'))
 WebUI.delay(1)
 ///Check menu President
 WebUI.verifyTextPresent("ประวัติอธิการบดี", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประวัติอธิการบดี'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ประวัติอธิการบดี'))
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประวัติและรูปภาพ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ประวัติและรูปภาพ'))
 WebUI.delay(1)
 ///check picture
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประวัติและรูปภาพ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/Administrator/ประวัติและรูปภาพ'), 20)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/คุณวุฒิการศึกษา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/คุณวุฒิการศึกษา'))
 WebUI.delay(1)
 ///check show text
 WebUI.verifyTextPresent("ประวัติอธิการบดีมหาวิทยาลัยพะเยา", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประสบการณ์ด้านการสอน ในสถาบันการศึกษาระดับอุดมศึกษา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ประสบการณ์ด้านการสอน ในสถาบันการศึกษาระดับอุดมศึกษา'))
 WebUI.delay(1)
 ///check show text
 WebUI.verifyTextPresent("ประสบการณ์ด้านการสอน ในสถาบันการศึกษาระดับอุดมศึกษา", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประสบการณ์ด้านการบริหารในสถาบันการศึกษาระดับอุดมศึกษา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ประสบการณ์ด้านการบริหารในสถาบันการศึกษาระดับอุดมศึกษา'))
 WebUI.delay(1)
 ///check show text
 WebUI.verifyTextPresent("ประสบการณ์ด้านการบริหารในสถาบันการศึกษาระดับอุดมศึกษา", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/ประสบการณ์ด้านอื่นๆ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/ประสบการณ์ด้านอื่นๆ'))
 WebUI.delay(1)
 ///check show text
 WebUI.verifyTextPresent("ประสบการณ์ด้านอื่นๆ", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/เครื่องราชอิสริยาภรณ์ชั้นสูงสุดที่ได้รับ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/เครื่องราชอิสริยาภรณ์ชั้นสูงสุดที่ได้รับ'))
 WebUI.delay(1)
 ///check show text
 WebUI.verifyTextPresent("เครื่องราชอิสริยาภรณ์ชั้นสูงสุดที่ได้รับ", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC005/เกียรติประวัติ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Administrator/เกียรติประวัติ'))
 WebUI.delay(1)
 ///check show text
 WebUI.verifyTextPresent("เกียรติประวัติ", false)

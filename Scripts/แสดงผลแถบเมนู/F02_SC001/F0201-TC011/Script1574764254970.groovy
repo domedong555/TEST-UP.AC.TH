@@ -21,27 +21,27 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 'แสดงปุ่มต่อจากแถบเมนู "เกี่ยวกับเรา"'
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC004/เกี่ยวกับเรา'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/Organizational/เกี่ยวกับเรา'))
 WebUI.delay(1)
 ///Check  Menu Intro_etc
 WebUI.verifyTextPresent(GlobalVariable.G_Intro_etc, false)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC011/แผน มาตรการต่างๆ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/etc/แผน มาตรการต่างๆ'))
 WebUI.delay(1)
 
 ///Check Show Intro_etc page
 WebUI.verifyTextPresent("เกี่ยวกับเรา > แผน/มาตรการต่างๆ", false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC011/แผนและมาตรการ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/etc/แผนและมาตรการ'))
 WebUI.delay(2)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC011/แผนและมาตรการ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/etc/แผนและมาตรการ'), 20)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC001/F0201-TC011/มาตรการ'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/About/etc/มาตรการ'))
 WebUI.delay(2)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC001/F0201-TC011/มาตรการ'), 20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/About/etc/มาตรการ'), 20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

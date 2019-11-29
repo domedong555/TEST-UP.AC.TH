@@ -24,10 +24,10 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC013/สวัสดิการ'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/Benefits/สวัสดิการ'),20)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 
 WebUI.delay(1)
 
@@ -40,7 +40,7 @@ WebUI.navigateToUrl('http://www.personnel.up.ac.th')
 WebUI.delay(3)
 
 ///check Benefits page
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC013/ตรวจสอบหน้าสวัสดิการ'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/personel/Benefits/ตรวจสอบหน้าสวัสดิการ'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()
