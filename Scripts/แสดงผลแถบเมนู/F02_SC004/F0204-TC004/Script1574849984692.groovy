@@ -58,8 +58,11 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผ
    WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/Go to mail page'))
    WebUI.delay(2)
    WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/mail_student/Stay signed in'))
+   WebUI.delay(2)
    WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/check offer'),20)
    WebUI.delay(2)
    }else{
    WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/mail_student/check offer'),20)}
+   WebUI.delay(2)
+   
 WebUI.closeBrowser()
