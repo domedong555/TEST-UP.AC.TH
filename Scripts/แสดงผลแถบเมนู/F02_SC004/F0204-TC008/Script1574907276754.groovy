@@ -38,9 +38,12 @@ WebUI.delay(1)
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/กองกิจการนิสิต'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/main/v2/modules/news/news_list_category.php?ID=5')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/scholarship/กองกิจการนิสิต'))
 WebUI.delay(5)
 
+'Switch to window'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
 ///check page scholarship
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/ตรวจสอบหน้ากองกิจการนิสิต'),20)
 WebUI.delay(1)

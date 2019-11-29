@@ -38,8 +38,12 @@ WebUI.delay(1)
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/กองบริการการศึกษา'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('https://www.does.up.ac.th/')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/scholarship/กองบริการการศึกษา'))
 WebUI.delay(5)
+
+'Switch to window'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
 
 ///check page scholarship
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/ตรวจสอบหน้ากองบริการการศึกษา'),20)

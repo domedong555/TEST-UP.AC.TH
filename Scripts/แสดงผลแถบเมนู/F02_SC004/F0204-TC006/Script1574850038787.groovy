@@ -36,8 +36,9 @@ WebUI.delay(1)
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/dsa/กิจกรรม'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/dsa/กิจกรรม'))
 WebUI.delay(5)
+
 
 ///check page dsa
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/dsa/DSA'),20)

@@ -39,10 +39,12 @@ WebUI.delay(1)
 WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/reg/วิชาการ'))
 WebUI.delay(5)
 
-'Switch to Documentation window'
+'Switch to window'
 WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
 
 ///check page reg
+
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/reg/reg'),20)
 WebUI.delay(1)
 
