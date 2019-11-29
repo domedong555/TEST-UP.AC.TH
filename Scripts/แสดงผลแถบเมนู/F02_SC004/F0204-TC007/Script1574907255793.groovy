@@ -43,7 +43,7 @@ WebUI.delay(5)
 
 'Switch to window'
 WebUI.switchToWindowIndex(1)
-WebUI.delay(1)
+WebUI.delay(2)
 
 ///check page scholarship
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/ตรวจสอบหน้ากองบริการการศึกษา'),20)
