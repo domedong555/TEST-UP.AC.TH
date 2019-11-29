@@ -27,8 +27,11 @@ WebUI.delay(1)
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/E_Service/e-Service'),20)
 WebUI.delay(1)
 
-WebUI.navigateToUrl('https://services.up.ac.th/')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/E_Service/e-Service'))
 WebUI.delay(5)
+'Switch to window'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(2)
 
 ///check page E_Service
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/E_Service/ตรวจสอบหน้า e-Service'),20)

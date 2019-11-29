@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>//ul[@id='menu-main-menu']/li[5]/ul/li[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'Student_Manual.aspx' and (text() = 'คู่มือนิสิต' or . = 'คู่มือนิสิต')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

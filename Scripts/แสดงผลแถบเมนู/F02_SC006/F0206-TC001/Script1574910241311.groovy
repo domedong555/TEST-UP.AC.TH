@@ -24,9 +24,11 @@ WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_alumni, false)
 WebUI.delay(1)
 
-
-WebUI.navigateToUrl('http://www.dsa.up.ac.th/alumni/main/')
+WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/alumni/ศิษย์เก่า'))
 WebUI.delay(5)
+'Switch to window'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(2)
 
 ///check page alumni
 WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/alumni/ตรวจสอบหน้าศิษย์เก่า 1'),20)
