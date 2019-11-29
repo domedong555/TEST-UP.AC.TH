@@ -21,32 +21,42 @@ WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 
 WebUI.delay(1)
+
 ///check menu collegian
 WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Intro_student/นิสิตปัจจุบัน'))
+
 WebUI.delay(1)
 
 ///check menu scholarship
 WebUI.verifyTextPresent(GlobalVariable.G_scholarship, false)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/ทุนการศึกษา'))
+
 WebUI.delay(1)
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/กองกิจการนิสิต'),20)
+
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/กองกิจการนิสิต'), 20)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/collegian/scholarship/กองกิจการนิสิต'))
+
 WebUI.delay(5)
 
 'Switch to window'
 WebUI.switchToWindowIndex(1)
-WebUI.delay(1)
-///check page scholarship
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/ตรวจสอบหน้ากองกิจการนิสิต'),20)
+
 WebUI.delay(1)
 
+///check page scholarship
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/scholarship/ตรวจสอบหน้ากองกิจการนิสิต'), 20)
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
+

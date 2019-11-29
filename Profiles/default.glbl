@@ -219,4 +219,24 @@
       <initValue>'เกี่ยวกับเรา'</initValue>
       <name>G_about1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test'</initValue>
+      <name>GS_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'@gmail.com'</initValue>
+      <name>GS_add</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test'</initValue>
+      <name>GS_title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'!@#$%^'</initValue>
+      <name>GS_name2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
