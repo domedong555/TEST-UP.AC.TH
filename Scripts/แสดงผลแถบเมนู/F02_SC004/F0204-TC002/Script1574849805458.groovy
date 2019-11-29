@@ -26,21 +26,21 @@ WebUI.verifyTextPresent(GlobalVariable.G_collegian, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC001/นิสิตปัจจุบัน'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Intro_student/นิสิตปัจจุบัน'))
 WebUI.delay(1)
 
 ///check menu Student_manual
 WebUI.verifyTextPresent(GlobalVariable.G_Student_manual, false)
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC004/F0204-TC002/คู่มือนิสิต'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/คู่มือนิสิต'))
 WebUI.delay(1)
 
 ///check page Student_manual
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/ตรวจสอบหน้า คู่มือนิสิต 1'),20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/F02_SC004/F0204-TC002/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/collegian/Student_manual/ตรวจสอบหน้า คู่มือนิสิต 2'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

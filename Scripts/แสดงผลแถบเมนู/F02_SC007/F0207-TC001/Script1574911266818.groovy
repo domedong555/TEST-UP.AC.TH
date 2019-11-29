@@ -24,17 +24,17 @@ WebUI.delay(1)
 WebUI.verifyTextPresent(GlobalVariable.G_E_Service, false)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC007/F0207-TC001/e-Service'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/E_Service/e-Service'),20)
 WebUI.delay(1)
 
 WebUI.navigateToUrl('https://services.up.ac.th/')
 WebUI.delay(5)
 
 ///check page E_Service
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC007/F0207-TC001/ตรวจสอบหน้า e-Service'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/E_Service/ตรวจสอบหน้า e-Service'),20)
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC007/F0207-TC001/ตรวจสอบเมนูหน้า e-Service'),20)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/E_Service/ตรวจสอบเมนูหน้า e-Service'),20)
 WebUI.delay(1)
 
 WebUI.closeBrowser()

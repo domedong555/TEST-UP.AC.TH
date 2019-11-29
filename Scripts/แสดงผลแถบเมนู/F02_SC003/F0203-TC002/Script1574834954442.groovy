@@ -25,7 +25,7 @@ WebUI.verifyTextPresent(GlobalVariable.G_personel, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/บุคลากร'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/บุคลากร'))
 
 WebUI.delay(1)
 
@@ -34,7 +34,7 @@ WebUI.verifyTextPresent(GlobalVariable.G_mail, false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC003/F0203-TC002/อีเมล์'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/personel/mail/อีเมล์'))
 
 WebUI.delay(7)
 

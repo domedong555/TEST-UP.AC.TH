@@ -22,28 +22,28 @@ WebUI.maximizeWindow()
 'แสดงเมนูติดต่อเรา'
 //Check contact menu
 WebUI.verifyTextPresent(GlobalVariable.G_contact, false)
-WebUI.click(findTestObject('แสดงผลแถบเมนู/F02_SC008/F0208_TC001/contact'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/contact/address/contact'))
 WebUI.delay(1)
 
 'แสดงหน้า ข้อเสนอแนะเพื่อการพัฒนา '
 //Check offer
 WebUI.verifyTextPresent(GlobalVariable.G_offer,false)
-WebUI.click(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC005/offer'))
+WebUI.click(findTestObject('แสดงผลแถบเมนู/contact/offer/offer'))
 WebUI.delay(1)
 
 //Check text
 WebUI.verifyTextPresent('ข้อเสนอแนะเพื่อการพัฒนา', false)
 //Check name
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC004/name'), 10)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/contact/currupt/name'), 10)
 
 //Check email
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC004/email'), 10)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/contact/currupt/email'), 10)
 
 //Check subject
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC004/subject'), 10)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/contact/currupt/subject'), 10)
 
 //Check message
-WebUI.verifyElementPresent(findTestObject('Object Repository/แสดงผลแถบเมนู/F02_SC008/F0208_TC004/message'), 10)
+WebUI.verifyElementPresent(findTestObject('แสดงผลแถบเมนู/contact/currupt/message'), 10)
 WebUI.delay(1)
 
 WebUI.closeBrowser()
