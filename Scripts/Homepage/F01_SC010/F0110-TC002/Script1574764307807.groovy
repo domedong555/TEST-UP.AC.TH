@@ -25,17 +25,17 @@ WebUI.maximizeWindow()
 'แสดงหน้า เมนูของ \r\nลิงค์เกี่ยวข้อง\r\n-QA Information System\r\n-ระบบสนับสนุนการตัดสินใจสำหรับผู้บริหาร\r\n-วารสารมหาวิทยาลัยพะเยา\r\n-Speexx\r\n-ระบบวาระการประชุมอิเล็กทรอนิกส์\r\n-หมวดวิชาศึกษาทั่วไป\r\n-ระบบแบบประเมินออนไลน์โดยบัณฑิตและผู้ใช้บัณฑิต\r\n-สัญลักษณ์ facebook\r\n-สัญลักษณ์ ig\r\n-สัญลักษณ์ youtube\r\n-สัญลักษณ์ line'
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC002/TC001/01'), 20)
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/01chancellor'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC002/TC002/02'), 20)
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/02ministry'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC002/TC003/03'), 20)
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/03basiceducation'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC002/TC004/04'), 20)
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/04Medical'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC002/TC005/05'), 20)
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/05National test'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC002/TC006/06'), 20)
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/06knowledge'), 20)
 
 WebUI.delay(3)
 

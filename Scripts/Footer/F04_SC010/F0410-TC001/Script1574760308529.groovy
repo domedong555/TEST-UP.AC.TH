@@ -24,7 +24,7 @@ WebUI.delay(2)
 
 //check widget-title menu
 'แสดงเมนู ในส่วนของ footer'
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
@@ -32,11 +32,14 @@ WebUI.delay(2)
 
 //check icon connected via IPv6
 'คลิก icon connected via IPv4  และ แสดงหน้า  icon connected via IPv4 '
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC010/TC001/01'), 10)
+WebUI.verifyElementPresent(findTestObject('Footer/02IPv4'), 10)
 
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC010/TC001/01'))
+WebUI.click(findTestObject('Footer/02IPv4'))
 
 WebUI.delay(2)
+
+//Check Text
+WebUI.verifyTextPresent('IPv4 connectivity', false)
 
 WebUI.closeBrowser()
 

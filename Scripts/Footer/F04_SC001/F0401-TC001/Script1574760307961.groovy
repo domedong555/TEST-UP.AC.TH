@@ -24,18 +24,22 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 'คลิก QA Information System และ แสดงหน้า QA information'
 //Check QA information system
-WebUI.verifyElementPresent(findTestObject('Footer/F04-SC001/TC001/QA Information System'), 10)
-WebUI.click(findTestObject('Footer/F04-SC001/TC001/QA Information System'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/01QA Information System'), 10)
+WebUI.click(findTestObject('Footer/Related links/01QA Information System'))
+WebUI.delay(2)
 
-
-WebUI.delay(5)
+'เปลี่ยน tab'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+//Check text
+WebUI.verifyTextPresent('สรุปภาพรวมการประกันคุณภาพการศึกษา ปีการศึกษา 2561', false)
 
 WebUI.closeBrowser()
 

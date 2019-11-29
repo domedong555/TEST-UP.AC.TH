@@ -23,17 +23,20 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 "คลิก Youtube และ แสดงหน้า Youtube "
 //check Youtube
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04_SC005/TC001/youtube'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04_SC005/TC001/youtube'))
+WebUI.verifyElementPresent(findTestObject('Footer/Related links/11youtube'),10)
+WebUI.click(findTestObject('Footer/Related links/11youtube'))
 
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+//Check text
+WebUI.verifyTextPresent('UP - Channel', false)
 
 WebUI.closeBrowser()

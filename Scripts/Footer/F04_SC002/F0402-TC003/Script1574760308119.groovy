@@ -23,17 +23,23 @@ WebUI.delay(2)
 
 'แสดงเมนู ในส่วนของ footer'
 //Check widget-title menu
-WebUI.click(findTestObject('Footer/footer/widgettitle'))
+WebUI.click(findTestObject('Footer/Related links/00widgettitle'))
 WebUI.verifyTextPresent(GlobalVariable.G_widgettitle, false)
 
 WebUI.delay(2)
 
 'คลิก  สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน และ แสดงหน้า สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน'
 //Check Office of the Basic Education Commission
-WebUI.verifyElementPresent(findTestObject('Object Repository/Footer/F04-SC002/TC003/03'),10)
-WebUI.click(findTestObject('Object Repository/Footer/F04-SC002/TC003/03'))
+WebUI.verifyElementPresent(findTestObject('Footer/Other links/03basiceducation'),10)
+WebUI.click(findTestObject('Footer/Other links/03basiceducation'))
 
 
-WebUI.delay(7)
+WebUI.delay(2)
+
+'เปลี่ยน tab'
+WebUI.switchToWindowIndex(1)
+WebUI.delay(1)
+//Check Element
+WebUI.verifyElementPresent(findTestObject('Footer/Basiceducation/01basic ed'), 10)
 
 WebUI.closeBrowser()
