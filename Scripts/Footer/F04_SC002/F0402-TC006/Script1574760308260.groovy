@@ -39,7 +39,7 @@ WebUI.delay(2)
 'เปลี่ยน tab'
 WebUI.switchToWindowIndex(1)
 WebUI.delay(1)
-//Check text
+//Check Error Website
 WebUI.verifyTextPresent('คลังความรู้', false)
 
 WebUI.closeBrowser()
