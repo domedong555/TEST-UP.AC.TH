@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ตรวจสอบการทำงานของ ช่องค้นหา โดยการกรอกหัวข้อข้อมูลที่มีอยู่</description>
+   <name>F0817-TC001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdce7026-1c58-485c-a2ee-1171bc78d502</testCaseGuid>
+</TestCaseEntity>
