@@ -15,27 +15,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-"เปืด หน้าหลัก"
+'แสดงหน้า หน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
+WebUI.delay(1)
 
+WebUI.click(findTestObject('Homepage menu/All news/ผลงานละบทความวิจัย'))
+WebUI.delay(1)
 
-//Check Element 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Graph/Graph'), 10)
-WebUI.click(findTestObject('Show Homepage/Graph/Graph'))
+WebUI.verifyElementPresent(findTestObject('Homepage menu/All news/ผลงานละบทความวิจัยทั้งหมด'),20)
+WebUI.delay(1)
 
+WebUI.click(findTestObject('Homepage menu/All news/ผลงานละบทความวิจัยทั้งหมด'))
+WebUI.delay(1)
 
-//Check Element homepage
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/homepage'), 10)
-//Check Element data
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/data'), 10)
-//Check Element working
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/working'), 10)
-//Check Element palace
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/palace'), 10)
-//Check Element dowload
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/dowload'), 10)
-//Check Element contact
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/contact'), 10)
-
+///check page Research results 
+WebUI.verifyElementPresent(findTestObject('Homepage menu/All news/ช่องค้นหาหน้าผลงานวิจัย'),20)
+WebUI.delay(1)
+WebUI.verifyTextPresent('ผลงานวิจัย', false)
+WebUI.delay(1)
 WebUI.closeBrowser()

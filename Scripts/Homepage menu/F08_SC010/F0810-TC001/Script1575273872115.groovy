@@ -14,28 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
-"เปืด หน้าหลัก"
+'เปิดหน้าจอหลัก'
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl('https://www.up.ac.th/th/ClipAll.aspx')
 
-//Check Element 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Graph/Graph'), 10)
-WebUI.click(findTestObject('Show Homepage/Graph/Graph'))
+//Check video name
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/Upclip/video name'), 10)
+//Check video
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/Upclip/video'), 10)
 
 
-//Check Element homepage
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/homepage'), 10)
-//Check Element data
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/data'), 10)
-//Check Element working
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/working'), 10)
-//Check Element palace
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/palace'), 10)
-//Check Element dowload
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/dowload'), 10)
-//Check Element contact
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/contact'), 10)
 
 WebUI.closeBrowser()
