@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Homepage menu/All news/next'))
 WebUI.delay(1)
 
 WebUI.navigateToUrl('http://admission.up.ac.th/62/')
-WebUI.delay(1)
+WebUI.delay(2)
 
 ///check admission page
 WebUI.verifyElementPresent(findTestObject('Homepage menu/All news/check admission page'),20)
