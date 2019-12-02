@@ -18,24 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 "เปืด หน้าหลัก"
 WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
+ 
+WebUI.delay(2)
+WebUI.navigateToUrl('https://www.up.ac.th/th/NewsTopArticleAll.aspx')
 
+//Check Element search
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/the article/search'), 10)
+//Check Element img
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/the article/img'), 10)
+//Check Element subject
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/the article/subject'), 10)
 
-//Check Element 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Graph/Graph'), 10)
-WebUI.click(findTestObject('Show Homepage/Graph/Graph'))
-
-
-//Check Element homepage
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/homepage'), 10)
-//Check Element data
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/data'), 10)
-//Check Element working
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/working'), 10)
-//Check Element palace
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/palace'), 10)
-//Check Element dowload
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/dowload'), 10)
-//Check Element contact
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/contact'), 10)
 
 WebUI.closeBrowser()

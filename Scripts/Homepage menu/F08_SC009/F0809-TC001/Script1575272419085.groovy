@@ -20,22 +20,16 @@ WebUI.openBrowser(GlobalVariable.G_url)
 WebUI.maximizeWindow()
 
 
-//Check Element 
-WebUI.verifyElementPresent(findTestObject('Show Homepage/Graph/Graph'), 10)
-WebUI.click(findTestObject('Show Homepage/Graph/Graph'))
+WebUI.delay(2)
+WebUI.navigateToUrl('https://www.up.ac.th/th/UP%20News.aspx')
 
 
-//Check Element homepage
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/homepage'), 10)
-//Check Element data
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/data'), 10)
-//Check Element working
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/working'), 10)
-//Check Element palace
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/palace'), 10)
-//Check Element dowload
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/dowload'), 10)
-//Check Element contact
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/graph/contact'), 10)
+//Check Text
+WebUI.verifyTextPresent('UP News', false)
+//Check Element E-book
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/News/E-book'), 10)
+//Check Element pdf
+WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/News/pdf'), 10)
+
 
 WebUI.closeBrowser()
