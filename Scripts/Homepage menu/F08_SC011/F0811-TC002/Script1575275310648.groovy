@@ -31,6 +31,8 @@ WebUI.verifyElementPresent(findTestObject('Homepage menu/calender/search'), 10)
 //Set text
 WebUI.setText(findTestObject('Homepage menu/calender/search'), 'ม.พะเยาเยา')
 WebUI.sendKeys(findTestObject('Homepage menu/calender/search'), '')
+WebUI.delay(2)
+WebUI.verifyTextPresent('No data to display', false)
 
 WebUI.delay(5)
 
