@@ -6,11 +6,15 @@
    <elementGuidId>321394ae-e0cb-4751-88fb-91b7074f3a40</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'การประชุมวิชาการกลุ่มสื่อสารศึกษา กลุ่มสื่อสารศึกษากับกลุ่มคนและชุมชน ครั้งที่4/2562' and @href = 'NewsRead.aspx?itemID=20009' and (text() = ' การประชุมวิชาการกลุ่มสื่อสารศึกษา กลุ่มสื่อสารศึกษากับกลุ่มคนและชุมชน ครั้งที่4/2562' or . = ' การประชุมวิชาการกลุ่มสื่อสารศึกษา กลุ่มสื่อสารศึกษากับกลุ่มคนและชุมชน ครั้งที่4/2562')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id-to-scroll']/div/div/div/div[3]/div/p/a[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

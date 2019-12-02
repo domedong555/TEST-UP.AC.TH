@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -23,18 +22,32 @@ WebUI.navigateToUrl(GlobalVariable.G_url)
 
 WebUI.maximizeWindow()
 
-'รูปภาพมีการเปลี่ยนโดยสไลด์ไปขางขวา'
+'แสดงหน้าผลงานวิจัย / บทความวิจัย\r\n-ผลงานวิจัย\r\n-วันที่ลง\r\n-จำนวนคนดู\r\n-ภาพเกี่ยวกับบทความ\r\n--มีหัวข้อใต้ภาพ\r\n-ด้านต่างๆที่แสดง #'
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 40)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail1'), 20)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'), 40)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail2'), 20)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 40)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail3'), 20)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'), 40)
+WebUI.verifyElementPresent(findTestObject('Show Homepage/Research/imganddetail4'), 20)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'), 40)
+WebUI.waitForElementClickable(findTestObject('Show Homepage/Research/Allresearch_News'), 20)
+
+WebUI.navigateToUrl('https://www.up.ac.th/th/NewsTopReAll.aspx')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Homepage menu/Research Search Objects/input_Research'))
+
+WebUI.setText(findTestObject('Homepage menu/Research Search Objects/input_Research'), 'Error Research Text')
+
+WebUI.sendKeys(findTestObject('Homepage menu/Research Search Objects/input_Research'), '')
+
+WebUI.delay(3)
+
+WebUI.verifyTextPresent('No data to display', false)
 
 WebUI.delay(3)
 
