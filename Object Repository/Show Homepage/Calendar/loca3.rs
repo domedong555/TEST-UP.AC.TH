@@ -6,11 +6,15 @@
    <elementGuidId>c527144a-b5af-45b1-a363-e59b3460aebb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' :: ห้องภูกามยาว 1 (PKY1) อาคารเรียนรวมหลังเก่า มหาวิทยาลัยพะเยา' or . = ' :: ห้องภูกามยาว 1 (PKY1) อาคารเรียนรวมหลังเก่า มหาวิทยาลัยพะเยา')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='id-to-scroll']/div/div/div/div[4]/div/div/small</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

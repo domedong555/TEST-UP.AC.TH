@@ -26,15 +26,15 @@ WebUI.maximizeWindow()
 'รูปภาพมีการเปลี่ยนโดยสไลด์ไปขางขวา'
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Statue'), 40)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Space'), 40)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 30)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP Sign'), 40)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/UP'), 40)
 
-WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'), 20)
+WebUI.waitForElementVisible(findTestObject('Show Homepage/Slide Pictures Objects/Slide Pictures V2/Presenter'), 40)
 
 WebUI.delay(3)
 
