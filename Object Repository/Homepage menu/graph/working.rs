@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>working</name>
    <tag></tag>
-   <elementGuidId>4da41bc5-4cf1-4629-8a97-b1696f34d1ba</elementGuidId>
+   <elementGuidId>d3db1d9c-3906-49f8-9c24-1b7cfd9bade6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//nav[@id='secondary-nav']/div/ul/li/a</value>
+         <value>//a[contains(text(),'ผลงานตีพิมพ์และเผยแพร่')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,83 +24,83 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
+      <value>http://wwmms.up.ac.th/research/uprm/graphprotfolio</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>สมัครเข้าศึกษา </value>
+      <value>ผลงานตีพิมพ์และเผยแพร่</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;secondary-nav&quot;)/div[@class=&quot;container&quot;]/ul[@class=&quot;menu&quot;]/li[@class=&quot;menu-item dropdown-menu-sub-indicator dropdown-menu-hover&quot;]/a[1]</value>
+      <value>/html[@class=&quot;wf-roboto-n5-active wf-roboto-n4-active wf-active&quot;]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;navbar navbar-default navbar-static-top&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;navbar-collapse collapse&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;menu active&quot;]/a[@class=&quot;dropdown-toggle&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//nav[@id='secondary-nav']/div/ul/li/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'สมัครเข้าศึกษา')]</value>
+      <value>//a[contains(text(),'ผลงานตีพิมพ์และเผยแพร่')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ติดต่อสอบถาม'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลสรุปการวิจัย'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ชมเชย'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='หน้าหลัก'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='หลักสูตรปริญญา'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ทำเนียบผู้ประสานงาน'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ผู้สนใจเข้าศึกษา'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ดาวน์โหลดเอกสาร'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='สมัครเข้าศึกษา']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='ผลงานตีพิมพ์และเผยแพร่']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[11]</value>
+      <value>//a[@href='http://wwmms.up.ac.th/research/uprm/graphprotfolio']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//nav/div/ul/li/a</value>
+      <value>//li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>
