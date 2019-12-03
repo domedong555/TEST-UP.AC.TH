@@ -20,9 +20,7 @@ WebUI.openBrowser(GlobalVariable.G_url)
 
 WebUI.maximizeWindow()
 
-//Check calender
-WebUI.verifyElementPresent(findTestObject('Object Repository/Homepage menu/calender/calender'), 10)
-WebUI.click(findTestObject('Object Repository/Homepage menu/calender/calender'))
+WebUI.navigateToUrl('https://www.up.ac.th/th/UP_Event_All.aspx')
 
 WebUI.delay(2)
 
