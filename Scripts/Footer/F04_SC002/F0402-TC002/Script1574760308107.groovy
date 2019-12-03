@@ -40,6 +40,7 @@ WebUI.delay(2)
 WebUI.switchToWindowIndex(1)
 WebUI.delay(1)
 //Check text
+WebUI.click(findTestObject('Object Repository/Footer/Other links/Enter Site'))
 WebUI.verifyTextPresent('กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม ', false)
 
 WebUI.closeBrowser()
